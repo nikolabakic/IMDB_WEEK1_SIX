@@ -1,0 +1,3 @@
+model,number_of_movies,embedding_dimension,encode_time_seconds,movies_per_second,embedding_file_mb
+minilm,9967,384,194.65514510000003,51.203372995250966,14.6002197265625
+mpnet,9967,768,1977.1537885000002,5.041084845282382,29.2003173828125
