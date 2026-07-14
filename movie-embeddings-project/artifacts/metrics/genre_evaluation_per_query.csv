@@ -1,0 +1,115 @@
+model,query_movie_id,query_title,genre_overlap_at_k,genre_jaccard_at_k,top_k
+gte_modernbert,12,Finding Nemo,0.4,0.3,5
+gte_modernbert,120,The Lord of the Rings: The Fellowship of the Ring,1.0,0.9,5
+gte_modernbert,155,The Dark Knight,1.0,0.465,5
+gte_modernbert,238,The Godfather,1.0,0.6233333333333333,5
+gte_modernbert,274,The Silence of the Lambs,1.0,0.5233333333333333,5
+gte_modernbert,348,Alien,1.0,0.5,5
+gte_modernbert,597,Titanic,0.6,0.2833333333333333,5
+gte_modernbert,603,The Matrix,1.0,0.4666666666666666,5
+gte_modernbert,807,Se7en,1.0,0.9,5
+gte_modernbert,857,Saving Private Ryan,0.8,0.47333333333333333,5
+gte_modernbert,862,Toy Story,1.0,0.7342857142857142,5
+gte_modernbert,9552,The Exorcist,1.0,0.4333333333333333,5
+gte_modernbert,11036,The Notebook,1.0,0.7333333333333333,5
+gte_modernbert,27205,Inception,0.4,0.09,5
+gte_modernbert,37165,The Truman Show,0.6,0.3,5
+gte_modernbert,37799,The Social Network,0.2,0.1,5
+gte_modernbert,44214,Black Swan,0.8,0.21666666666666665,5
+gte_modernbert,76341,Mad Max: Fury Road,0.8,0.32999999999999996,5
+gte_modernbert,120467,The Grand Budapest Hotel,0.8,0.4333333333333333,5
+minilm,12,Finding Nemo,0.4,0.08,5
+minilm,120,The Lord of the Rings: The Fellowship of the Ring,1.0,0.7666666666666667,5
+minilm,155,The Dark Knight,1.0,0.45,5
+minilm,238,The Godfather,1.0,0.64,5
+minilm,274,The Silence of the Lambs,1.0,0.54,5
+minilm,348,Alien,1.0,0.6166666666666666,5
+minilm,597,Titanic,0.2,0.13333333333333333,5
+minilm,603,The Matrix,0.8,0.25,5
+minilm,807,Se7en,1.0,0.6833333333333333,5
+minilm,857,Saving Private Ryan,0.8,0.38,5
+minilm,862,Toy Story,1.0,0.7342857142857142,5
+minilm,9552,The Exorcist,1.0,0.4666666666666666,5
+minilm,11036,The Notebook,1.0,0.6166666666666666,5
+minilm,27205,Inception,0.2,0.04,5
+minilm,37165,The Truman Show,1.0,0.35666666666666663,5
+minilm,37799,The Social Network,0.0,0.0,5
+minilm,44214,Black Swan,1.0,0.31333333333333335,5
+minilm,76341,Mad Max: Fury Road,0.6,0.31333333333333335,5
+minilm,120467,The Grand Budapest Hotel,0.8,0.31666666666666665,5
+mpnet,12,Finding Nemo,0.8,0.32,5
+mpnet,120,The Lord of the Rings: The Fellowship of the Ring,1.0,0.9,5
+mpnet,155,The Dark Knight,1.0,0.53,5
+mpnet,238,The Godfather,1.0,0.6166666666666666,5
+mpnet,274,The Silence of the Lambs,0.8,0.5333333333333333,5
+mpnet,348,Alien,0.8,0.4166666666666667,5
+mpnet,597,Titanic,0.4,0.10666666666666666,5
+mpnet,603,The Matrix,0.8,0.4,5
+mpnet,807,Se7en,1.0,0.5866666666666667,5
+mpnet,857,Saving Private Ryan,1.0,0.6066666666666667,5
+mpnet,862,Toy Story,0.8,0.6142857142857142,5
+mpnet,9552,The Exorcist,1.0,0.4166666666666667,5
+mpnet,11036,The Notebook,1.0,0.4833333333333333,5
+mpnet,27205,Inception,0.6,0.24,5
+mpnet,37165,The Truman Show,0.6,0.3,5
+mpnet,37799,The Social Network,0.8,0.36666666666666664,5
+mpnet,44214,Black Swan,0.8,0.17333333333333334,5
+mpnet,76341,Mad Max: Fury Road,0.6,0.24,5
+mpnet,120467,The Grand Budapest Hotel,1.0,0.4,5
+gte_modernbert,12,Finding Nemo,0.5,0.31,10
+gte_modernbert,120,The Lord of the Rings: The Fellowship of the Ring,1.0,0.6866666666666666,10
+gte_modernbert,155,The Dark Knight,1.0,0.41916666666666663,10
+gte_modernbert,238,The Godfather,0.9,0.52,10
+gte_modernbert,274,The Silence of the Lambs,1.0,0.43166666666666664,10
+gte_modernbert,348,Alien,1.0,0.4083333333333333,10
+gte_modernbert,597,Titanic,0.6,0.22833333333333333,10
+gte_modernbert,603,The Matrix,0.9,0.4,10
+gte_modernbert,807,Se7en,1.0,0.74,10
+gte_modernbert,857,Saving Private Ryan,0.9,0.45166666666666666,10
+gte_modernbert,862,Toy Story,1.0,0.6821428571428572,10
+gte_modernbert,9552,The Exorcist,1.0,0.4166666666666667,10
+gte_modernbert,11036,The Notebook,1.0,0.725,10
+gte_modernbert,27205,Inception,0.5,0.13999999999999999,10
+gte_modernbert,37165,The Truman Show,0.8,0.41666666666666663,10
+gte_modernbert,37799,The Social Network,0.4,0.18333333333333332,10
+gte_modernbert,44214,Black Swan,0.8,0.23666666666666666,10
+gte_modernbert,76341,Mad Max: Fury Road,0.9,0.37666666666666665,10
+gte_modernbert,120467,The Grand Budapest Hotel,0.9,0.4,10
+minilm,12,Finding Nemo,0.4,0.12666666666666665,10
+minilm,120,The Lord of the Rings: The Fellowship of the Ring,1.0,0.6483333333333333,10
+minilm,155,The Dark Knight,1.0,0.4135714285714286,10
+minilm,238,The Godfather,1.0,0.54,10
+minilm,274,The Silence of the Lambs,0.9,0.41,10
+minilm,348,Alien,1.0,0.4833333333333333,10
+minilm,597,Titanic,0.4,0.25,10
+minilm,603,The Matrix,0.8,0.27,10
+minilm,807,Se7en,1.0,0.5966666666666667,10
+minilm,857,Saving Private Ryan,0.7,0.33999999999999997,10
+minilm,862,Toy Story,0.8,0.49214285714285716,10
+minilm,9552,The Exorcist,1.0,0.4416666666666666,10
+minilm,11036,The Notebook,1.0,0.65,10
+minilm,27205,Inception,0.3,0.07666666666666667,10
+minilm,37165,The Truman Show,1.0,0.44833333333333336,10
+minilm,37799,The Social Network,0.4,0.175,10
+minilm,44214,Black Swan,0.9,0.255,10
+minilm,76341,Mad Max: Fury Road,0.8,0.38166666666666665,10
+minilm,120467,The Grand Budapest Hotel,0.9,0.395,10
+mpnet,12,Finding Nemo,0.7,0.32166666666666666,10
+mpnet,120,The Lord of the Rings: The Fellowship of the Ring,1.0,0.75,10
+mpnet,155,The Dark Knight,1.0,0.445,10
+mpnet,238,The Godfather,1.0,0.6166666666666666,10
+mpnet,274,The Silence of the Lambs,0.9,0.485,10
+mpnet,348,Alien,0.7,0.39166666666666666,10
+mpnet,597,Titanic,0.6,0.29,10
+mpnet,603,The Matrix,0.7,0.3583333333333333,10
+mpnet,807,Se7en,0.8,0.4333333333333333,10
+mpnet,857,Saving Private Ryan,1.0,0.61,10
+mpnet,862,Toy Story,0.9,0.6171428571428572,10
+mpnet,9552,The Exorcist,1.0,0.4333333333333333,10
+mpnet,11036,The Notebook,0.9,0.5083333333333333,10
+mpnet,27205,Inception,0.6,0.225,10
+mpnet,37165,The Truman Show,0.8,0.2783333333333333,10
+mpnet,37799,The Social Network,0.8,0.3333333333333333,10
+mpnet,44214,Black Swan,0.9,0.21166666666666667,10
+mpnet,76341,Mad Max: Fury Road,0.6,0.29333333333333333,10
+mpnet,120467,The Grand Budapest Hotel,0.9,0.4583333333333333,10

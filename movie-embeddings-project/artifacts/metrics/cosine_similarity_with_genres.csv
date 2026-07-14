@@ -1,0 +1,571 @@
+query_movie_id,query_title,model,rank,recommended_movie_id,recommended_title,cosine_similarity,query_genres,recommended_genres,shared_genres,genre_overlap,genre_jaccard
+155,The Dark Knight,minilm,1,736073,"Batman: The Long Halloween, Part One",0.7640303373336792,"Action, Crime, Thriller","Action, Animation, Crime, Mystery","Action, Crime",1,0.4
+155,The Dark Knight,minilm,2,736074,"Batman: The Long Halloween, Part Two",0.7254387140274048,"Action, Crime, Thriller","Action, Animation, Crime, Mystery","Action, Crime",1,0.4
+155,The Dark Knight,minilm,3,268,Batman,0.7074058651924133,"Action, Crime, Thriller","Action, Crime, Fantasy","Action, Crime",1,0.5
+155,The Dark Knight,minilm,4,49026,The Dark Knight Rises,0.701888382434845,"Action, Crime, Thriller","Action, Crime, Drama, Thriller","Action, Crime, Thriller",1,0.75
+155,The Dark Knight,minilm,5,382322,Batman: The Killing Joke,0.6480504274368286,"Action, Crime, Thriller","Animation, Crime, Drama",Crime,1,0.2
+155,The Dark Knight,minilm,6,471474,Batman: Gotham by Gaslight,0.647676944732666,"Action, Crime, Thriller","Action, Animation, Science Fiction, Thriller","Action, Thriller",1,0.4
+155,The Dark Knight,minilm,7,209112,Batman v Superman: Dawn of Justice,0.6413317918777466,"Action, Crime, Thriller","Action, Adventure, Fantasy",Action,1,0.2
+155,The Dark Knight,minilm,8,414906,The Batman,0.6330636739730835,"Action, Crime, Thriller","Crime, Mystery, Thriller","Crime, Thriller",1,0.5
+155,The Dark Knight,minilm,9,21683,Batman: Mystery of the Batwoman,0.6228986978530884,"Action, Crime, Thriller","Action, Adventure, Animation, Crime, Drama, Fantasy","Action, Crime",1,0.2857142857142857
+155,The Dark Knight,minilm,10,272,Batman Begins,0.6147927045822144,"Action, Crime, Thriller","Action, Crime, Drama","Action, Crime",1,0.5
+155,The Dark Knight,mpnet,1,49026,The Dark Knight Rises,0.8282350301742554,"Action, Crime, Thriller","Action, Crime, Drama, Thriller","Action, Crime, Thriller",1,0.75
+155,The Dark Knight,mpnet,2,736073,"Batman: The Long Halloween, Part One",0.7927020788192749,"Action, Crime, Thriller","Action, Animation, Crime, Mystery","Action, Crime",1,0.4
+155,The Dark Knight,mpnet,3,414906,The Batman,0.772710919380188,"Action, Crime, Thriller","Crime, Mystery, Thriller","Crime, Thriller",1,0.5
+155,The Dark Knight,mpnet,4,272,Batman Begins,0.7703555822372437,"Action, Crime, Thriller","Action, Crime, Drama","Action, Crime",1,0.5
+155,The Dark Knight,mpnet,5,268,Batman,0.7643216848373413,"Action, Crime, Thriller","Action, Crime, Fantasy","Action, Crime",1,0.5
+155,The Dark Knight,mpnet,6,736074,"Batman: The Long Halloween, Part Two",0.76023930311203,"Action, Crime, Thriller","Action, Animation, Crime, Mystery","Action, Crime",1,0.4
+155,The Dark Knight,mpnet,7,471474,Batman: Gotham by Gaslight,0.7124864459037781,"Action, Crime, Thriller","Action, Animation, Science Fiction, Thriller","Action, Thriller",1,0.4
+155,The Dark Knight,mpnet,8,382322,Batman: The Killing Joke,0.7053298950195312,"Action, Crime, Thriller","Animation, Crime, Drama",Crime,1,0.2
+155,The Dark Knight,mpnet,9,209112,Batman v Superman: Dawn of Justice,0.6958638429641724,"Action, Crime, Thriller","Action, Adventure, Fantasy",Action,1,0.2
+155,The Dark Knight,mpnet,10,69735,Batman: Year One,0.6897512674331665,"Action, Crime, Thriller","Action, Animation, Crime, Drama, Thriller","Action, Crime, Thriller",1,0.6
+155,The Dark Knight,gte_modernbert,1,49026,The Dark Knight Rises,0.8185203075408936,"Action, Crime, Thriller","Action, Crime, Drama, Thriller","Action, Crime, Thriller",1,0.75
+155,The Dark Knight,gte_modernbert,2,209112,Batman v Superman: Dawn of Justice,0.8002721071243286,"Action, Crime, Thriller","Action, Adventure, Fantasy",Action,1,0.2
+155,The Dark Knight,gte_modernbert,3,408220,Justice League Dark,0.7911467552185059,"Action, Crime, Thriller","Action, Adventure, Animation, Fantasy, Horror, Science Fiction",Action,1,0.125
+155,The Dark Knight,gte_modernbert,4,242643,Batman: Assault on Arkham,0.7877315878868103,"Action, Crime, Thriller","Action, Animation, Crime, Thriller","Action, Crime, Thriller",1,0.75
+155,The Dark Knight,gte_modernbert,5,268,Batman,0.7850728034973145,"Action, Crime, Thriller","Action, Crime, Fantasy","Action, Crime",1,0.5
+155,The Dark Knight,gte_modernbert,6,408648,Batman and Harley Quinn,0.7822602987289429,"Action, Crime, Thriller","Adventure, Animation, Comedy, Crime",Crime,1,0.16666666666666666
+155,The Dark Knight,gte_modernbert,7,471474,Batman: Gotham by Gaslight,0.7746405601501465,"Action, Crime, Thriller","Action, Animation, Science Fiction, Thriller","Action, Thriller",1,0.4
+155,The Dark Knight,gte_modernbert,8,736074,"Batman: The Long Halloween, Part Two",0.7664694786071777,"Action, Crime, Thriller","Action, Animation, Crime, Mystery","Action, Crime",1,0.4
+155,The Dark Knight,gte_modernbert,9,414906,The Batman,0.7624578475952148,"Action, Crime, Thriller","Crime, Mystery, Thriller","Crime, Thriller",1,0.5
+155,The Dark Knight,gte_modernbert,10,736073,"Batman: The Long Halloween, Part One",0.7604997754096985,"Action, Crime, Thriller","Action, Animation, Crime, Mystery","Action, Crime",1,0.4
+27205,Inception,minilm,1,109431,Identity Thief,0.47811830043792725,"Action, Adventure, Science Fiction","Comedy, Crime",,0,0.0
+27205,Inception,minilm,2,29193,The Spanish Prisoner,0.47600847482681274,"Action, Adventure, Science Fiction","Drama, Mystery, Thriller",,0,0.0
+27205,Inception,minilm,3,2322,Sneakers,0.4755198359489441,"Action, Adventure, Science Fiction","Comedy, Crime, Drama",,0,0.0
+27205,Inception,minilm,4,51876,Limitless,0.46508920192718506,"Action, Adventure, Science Fiction","Mystery, Science Fiction, Thriller",Science Fiction,1,0.2
+27205,Inception,minilm,5,3525,Working Girl,0.4608907699584961,"Action, Adventure, Science Fiction","Comedy, Drama, Romance",,0,0.0
+27205,Inception,minilm,6,10425,The Death and Life of Bobby Z,0.4541664719581604,"Action, Adventure, Science Fiction","Action, Crime, Drama, Thriller",Action,1,0.16666666666666666
+27205,Inception,minilm,7,8284,The Limits of Control,0.45416343212127686,"Action, Adventure, Science Fiction","Crime, Drama, Mystery, Thriller",,0,0.0
+27205,Inception,minilm,8,255157,The Forger,0.4536888301372528,"Action, Adventure, Science Fiction","Crime, Drama, Thriller",,0,0.0
+27205,Inception,minilm,9,11321,Seven Pounds,0.4502415955066681,"Action, Adventure, Science Fiction",Drama,,0,0.0
+27205,Inception,minilm,10,207703,Kingsman: The Secret Service,0.44900453090667725,"Action, Adventure, Science Fiction","Action, Adventure, Comedy, Crime","Action, Adventure",1,0.4
+27205,Inception,mpnet,1,2322,Sneakers,0.5232251882553101,"Action, Adventure, Science Fiction","Comedy, Crime, Drama",,0,0.0
+27205,Inception,mpnet,2,302156,Criminal,0.5138125419616699,"Action, Adventure, Science Fiction","Action, Crime, Science Fiction","Action, Science Fiction",1,0.5
+27205,Inception,mpnet,3,978592,Sleeping Dogs,0.5129855871200562,"Action, Adventure, Science Fiction","Crime, Drama, Mystery, Thriller",,0,0.0
+27205,Inception,mpnet,4,9323,Ghost in the Shell,0.5087719559669495,"Action, Adventure, Science Fiction","Action, Animation, Science Fiction","Action, Science Fiction",1,0.5
+27205,Inception,mpnet,5,818397,Memory,0.5004580020904541,"Action, Adventure, Science Fiction","Action, Crime, Thriller",Action,1,0.2
+27205,Inception,mpnet,6,10163,The Lawnmower Man,0.4997309446334839,"Action, Adventure, Science Fiction","Horror, Science Fiction",Science Fiction,1,0.25
+27205,Inception,mpnet,7,4169,Breach,0.49969154596328735,"Action, Adventure, Science Fiction","Crime, Drama, History, Thriller",,0,0.0
+27205,Inception,mpnet,8,29193,The Spanish Prisoner,0.49830225110054016,"Action, Adventure, Science Fiction","Drama, Mystery, Thriller",,0,0.0
+27205,Inception,mpnet,9,399035,The Commuter,0.49786150455474854,"Action, Adventure, Science Fiction","Action, Mystery, Thriller",Action,1,0.2
+27205,Inception,mpnet,10,9620,Paycheck,0.4975127875804901,"Action, Adventure, Science Fiction","Action, Adventure, Mystery, Science Fiction, Thriller","Action, Adventure, Science Fiction",1,0.6
+27205,Inception,gte_modernbert,1,21407,The Collector,0.7386508584022522,"Action, Adventure, Science Fiction","Horror, Thriller",,0,0.0
+27205,Inception,gte_modernbert,2,115348,Paranoia,0.7272019386291504,"Action, Adventure, Science Fiction","Drama, Thriller",,0,0.0
+27205,Inception,gte_modernbert,3,3525,Working Girl,0.7196074724197388,"Action, Adventure, Science Fiction","Comedy, Drama, Romance",,0,0.0
+27205,Inception,gte_modernbert,4,119283,Parker,0.7174766659736633,"Action, Adventure, Science Fiction","Action, Crime",Action,1,0.25
+27205,Inception,gte_modernbert,5,1727,Bird on a Wire,0.7158644199371338,"Action, Adventure, Science Fiction","Adventure, Comedy, Romance",Adventure,1,0.2
+27205,Inception,gte_modernbert,6,2155,Reindeer Games,0.7104328274726868,"Action, Adventure, Science Fiction","Action, Crime, Thriller",Action,1,0.2
+27205,Inception,gte_modernbert,7,302156,Criminal,0.7102334499359131,"Action, Adventure, Science Fiction","Action, Crime, Science Fiction","Action, Science Fiction",1,0.5
+27205,Inception,gte_modernbert,8,9277,The Sting,0.7102278470993042,"Action, Adventure, Science Fiction","Comedy, Crime, Drama",,0,0.0
+27205,Inception,gte_modernbert,9,2322,Sneakers,0.709392786026001,"Action, Adventure, Science Fiction","Comedy, Crime, Drama",,0,0.0
+27205,Inception,gte_modernbert,10,10133,Cypher,0.7093380093574524,"Action, Adventure, Science Fiction","Science Fiction, Thriller",Science Fiction,1,0.25
+862,Toy Story,minilm,1,10193,Toy Story 3,0.7586122751235962,"Adventure, Animation, Comedy, Family","Animation, Comedy, Family","Animation, Comedy, Family",1,0.75
+862,Toy Story,minilm,2,863,Toy Story 2,0.7400597333908081,"Adventure, Animation, Comedy, Family","Animation, Comedy, Family","Animation, Comedy, Family",1,0.75
+862,Toy Story,minilm,3,301528,Toy Story 4,0.5444011092185974,"Adventure, Animation, Comedy, Family","Adventure, Animation, Comedy, Family","Adventure, Animation, Comedy, Family",1,1.0
+862,Toy Story,minilm,4,16187,Buzz Lightyear of Star Command: The Adventure Begins,0.47646284103393555,"Adventure, Animation, Comedy, Family","Action, Adventure, Animation, Comedy, Family, Science Fiction, TV Movie","Adventure, Animation, Comedy, Family",1,0.5714285714285714
+862,Toy Story,minilm,5,718789,Lightyear,0.4287939667701721,"Adventure, Animation, Comedy, Family","Adventure, Animation, Family, Science Fiction","Adventure, Animation, Family",1,0.6
+862,Toy Story,minilm,6,10585,Child's Play,0.4226815700531006,"Adventure, Animation, Comedy, Family",Horror,,0,0.0
+862,Toy Story,minilm,7,11186,Child's Play 2,0.39463943243026733,"Adventure, Animation, Comedy, Family",Horror,,0,0.0
+862,Toy Story,minilm,8,13925,Luxo Jr.,0.39173558354377747,"Adventure, Animation, Comedy, Family","Animation, Comedy","Animation, Comedy",1,0.5
+862,Toy Story,minilm,9,55465,A Very Harold & Kumar Christmas,0.39038950204849243,"Adventure, Animation, Comedy, Family",Comedy,Comedy,1,0.25
+862,Toy Story,minilm,10,9969,Deck the Halls,0.3881223201751709,"Adventure, Animation, Comedy, Family","Comedy, Family","Comedy, Family",1,0.5
+862,Toy Story,mpnet,1,10193,Toy Story 3,0.8329988718032837,"Adventure, Animation, Comedy, Family","Animation, Comedy, Family","Animation, Comedy, Family",1,0.75
+862,Toy Story,mpnet,2,863,Toy Story 2,0.8169537782669067,"Adventure, Animation, Comedy, Family","Animation, Comedy, Family","Animation, Comedy, Family",1,0.75
+862,Toy Story,mpnet,3,301528,Toy Story 4,0.645551860332489,"Adventure, Animation, Comedy, Family","Adventure, Animation, Comedy, Family","Adventure, Animation, Comedy, Family",1,1.0
+862,Toy Story,mpnet,4,16187,Buzz Lightyear of Star Command: The Adventure Begins,0.5125540494918823,"Adventure, Animation, Comedy, Family","Action, Adventure, Animation, Comedy, Family, Science Fiction, TV Movie","Adventure, Animation, Comedy, Family",1,0.5714285714285714
+862,Toy Story,mpnet,5,11186,Child's Play 2,0.5068923234939575,"Adventure, Animation, Comedy, Family",Horror,,0,0.0
+862,Toy Story,mpnet,6,420814,Christopher Robin,0.49889782071113586,"Adventure, Animation, Comedy, Family","Adventure, Comedy, Family, Fantasy","Adventure, Comedy, Family",1,0.6
+862,Toy Story,mpnet,7,10719,Elf,0.4912055730819702,"Adventure, Animation, Comedy, Family","Comedy, Family, Fantasy","Comedy, Family",1,0.4
+862,Toy Story,mpnet,8,718789,Lightyear,0.4845614433288574,"Adventure, Animation, Comedy, Family","Adventure, Animation, Family, Science Fiction","Adventure, Animation, Family",1,0.6
+862,Toy Story,mpnet,9,15400,Mickey's Once Upon a Christmas,0.475208580493927,"Adventure, Animation, Comedy, Family","Animation, Comedy, Family","Animation, Comedy, Family",1,0.75
+862,Toy Story,mpnet,10,77887,Hawaiian Vacation,0.47037267684936523,"Adventure, Animation, Comedy, Family","Animation, Comedy, Family","Animation, Comedy, Family",1,0.75
+862,Toy Story,gte_modernbert,1,863,Toy Story 2,0.7975934743881226,"Adventure, Animation, Comedy, Family","Animation, Comedy, Family","Animation, Comedy, Family",1,0.75
+862,Toy Story,gte_modernbert,2,10193,Toy Story 3,0.7972722053527832,"Adventure, Animation, Comedy, Family","Animation, Comedy, Family","Animation, Comedy, Family",1,0.75
+862,Toy Story,gte_modernbert,3,301528,Toy Story 4,0.7573784589767456,"Adventure, Animation, Comedy, Family","Adventure, Animation, Comedy, Family","Adventure, Animation, Comedy, Family",1,1.0
+862,Toy Story,gte_modernbert,4,718789,Lightyear,0.6877400279045105,"Adventure, Animation, Comedy, Family","Adventure, Animation, Family, Science Fiction","Adventure, Animation, Family",1,0.6
+862,Toy Story,gte_modernbert,5,16187,Buzz Lightyear of Star Command: The Adventure Begins,0.6830646395683289,"Adventure, Animation, Comedy, Family","Action, Adventure, Animation, Comedy, Family, Science Fiction, TV Movie","Adventure, Animation, Comedy, Family",1,0.5714285714285714
+862,Toy Story,gte_modernbert,6,256835,Toy Story That Time Forgot,0.6763190031051636,"Adventure, Animation, Comedy, Family","Adventure, Animation, Comedy, Family","Adventure, Animation, Comedy, Family",1,1.0
+862,Toy Story,gte_modernbert,7,10719,Elf,0.672720193862915,"Adventure, Animation, Comedy, Family","Comedy, Family, Fantasy","Comedy, Family",1,0.4
+862,Toy Story,gte_modernbert,8,24100,The Little Vampire,0.6701992154121399,"Adventure, Animation, Comedy, Family","Adventure, Comedy, Family, Fantasy","Adventure, Comedy, Family",1,0.6
+862,Toy Story,gte_modernbert,9,1634,Free Willy,0.6612515449523926,"Adventure, Animation, Comedy, Family","Adventure, Drama, Family","Adventure, Family",1,0.4
+862,Toy Story,gte_modernbert,10,462883,Woody Woodpecker,0.6587657928466797,"Adventure, Animation, Comedy, Family","Animation, Comedy, Family","Animation, Comedy, Family",1,0.75
+238,The Godfather,minilm,1,240,The Godfather Part II,0.8038132786750793,"Crime, Drama","Crime, Drama","Crime, Drama",1,1.0
+238,The Godfather,minilm,2,242,The Godfather Part III,0.6521334648132324,"Crime, Drama","Crime, Drama, Thriller","Crime, Drama",1,0.6666666666666666
+238,The Godfather,minilm,3,1013601,The Alto Knights,0.5417301654815674,"Crime, Drama","Crime, Drama, History","Crime, Drama",1,0.6666666666666666
+238,The Godfather,minilm,4,873126,My Name Is Vendetta,0.5406330823898315,"Crime, Drama","Action, Adventure, Crime, Thriller",Crime,1,0.2
+238,The Godfather,minilm,5,4477,The Devil's Own,0.5107191801071167,"Crime, Drama","Crime, Drama, Thriller","Crime, Drama",1,0.6666666666666666
+238,The Godfather,minilm,6,19413,"Ugly, Dirty and Bad",0.509203314781189,"Crime, Drama","Comedy, Drama",Drama,1,0.3333333333333333
+238,The Godfather,minilm,7,59,A History of Violence,0.5074642896652222,"Crime, Drama","Crime, Drama, Thriller","Crime, Drama",1,0.6666666666666666
+238,The Godfather,minilm,8,438396,Unknown Origins,0.5021933317184448,"Crime, Drama","Drama, Thriller",Drama,1,0.3333333333333333
+238,The Godfather,minilm,9,14400,The Heir Apparent: Largo Winch,0.5016465783119202,"Crime, Drama","Action, Adventure, Drama, Thriller",Drama,1,0.2
+238,The Godfather,minilm,10,575452,The Traitor,0.49409669637680054,"Crime, Drama","Crime, Drama, Thriller","Crime, Drama",1,0.6666666666666666
+238,The Godfather,mpnet,1,242,The Godfather Part III,0.706571102142334,"Crime, Drama","Crime, Drama, Thriller","Crime, Drama",1,0.6666666666666666
+238,The Godfather,mpnet,2,240,The Godfather Part II,0.6992446184158325,"Crime, Drama","Crime, Drama","Crime, Drama",1,1.0
+238,The Godfather,mpnet,3,1013601,The Alto Knights,0.5778154730796814,"Crime, Drama","Crime, Drama, History","Crime, Drama",1,0.6666666666666666
+238,The Godfather,mpnet,4,877,Scarface,0.5541206002235413,"Crime, Drama","Action, Crime, Drama, Thriller","Crime, Drama",1,0.5
+238,The Godfather,mpnet,5,11659,The Best of Youth,0.553597629070282,"Crime, Drama","Drama, History, Romance",Drama,1,0.25
+238,The Godfather,mpnet,6,10778,The Man Who Wasn't There,0.5533126592636108,"Crime, Drama","Crime, Drama","Crime, Drama",1,1.0
+238,The Godfather,mpnet,7,36940,The First Beautiful Thing,0.5489879846572876,"Crime, Drama","Comedy, Drama",Drama,1,0.3333333333333333
+238,The Godfather,mpnet,8,112205,The Family,0.5458277463912964,"Crime, Drama","Action, Comedy, Crime",Crime,1,0.25
+238,The Godfather,mpnet,9,239877,The Mafia Kills Only in Summer,0.5444613695144653,"Crime, Drama","Comedy, Crime, Drama, Romance","Crime, Drama",1,0.5
+238,The Godfather,mpnet,10,524369,The Many Saints of Newark,0.5381444692611694,"Crime, Drama","Crime, Drama","Crime, Drama",1,1.0
+238,The Godfather,gte_modernbert,1,240,The Godfather Part II,0.7690685391426086,"Crime, Drama","Crime, Drama","Crime, Drama",1,1.0
+238,The Godfather,gte_modernbert,2,242,The Godfather Part III,0.7404598593711853,"Crime, Drama","Crime, Drama, Thriller","Crime, Drama",1,0.6666666666666666
+238,The Godfather,gte_modernbert,3,873126,My Name Is Vendetta,0.703300952911377,"Crime, Drama","Action, Adventure, Crime, Thriller",Crime,1,0.2
+238,The Godfather,gte_modernbert,4,460059,Burn Out,0.6976104974746704,"Crime, Drama","Action, Crime, Thriller",Crime,1,0.25
+238,The Godfather,gte_modernbert,5,571495,The Ruthless,0.6915704011917114,"Crime, Drama","Crime, Drama","Crime, Drama",1,1.0
+238,The Godfather,gte_modernbert,6,877,Scarface,0.6902776956558228,"Crime, Drama","Action, Crime, Drama, Thriller","Crime, Drama",1,0.5
+238,The Godfather,gte_modernbert,7,524369,The Many Saints of Newark,0.6896155476570129,"Crime, Drama","Crime, Drama","Crime, Drama",1,1.0
+238,The Godfather,gte_modernbert,8,11659,The Best of Youth,0.6890550255775452,"Crime, Drama","Drama, History, Romance",Drama,1,0.25
+238,The Godfather,gte_modernbert,9,76600,Avatar: The Way of Water,0.6753450632095337,"Crime, Drama","Action, Adventure, Science Fiction",,0,0.0
+238,The Godfather,gte_modernbert,10,8292,Four Brothers,0.6694335341453552,"Crime, Drama","Action, Crime",Crime,1,0.3333333333333333
+603,The Matrix,minilm,1,604,The Matrix Reloaded,0.5804275274276733,"Action, Science Fiction","Action, Adventure, Science Fiction, Thriller","Action, Science Fiction",1,0.5
+603,The Matrix,minilm,2,10999,Commando,0.556394636631012,"Action, Science Fiction","Action, Adventure, Thriller",Action,1,0.25
+603,The Matrix,minilm,3,2322,Sneakers,0.5408909320831299,"Action, Science Fiction","Comedy, Crime, Drama",,0,0.0
+603,The Matrix,minilm,4,157834,The Zero Theorem,0.5113346576690674,"Action, Science Fiction","Drama, Fantasy, Science Fiction",Science Fiction,1,0.25
+603,The Matrix,minilm,5,9989,Antitrust,0.5022814273834229,"Action, Science Fiction","Action, Crime, Drama",Action,1,0.25
+603,The Matrix,minilm,6,586810,Mars Express,0.5010035037994385,"Action, Science Fiction","Animation, Science Fiction, Thriller",Science Fiction,1,0.25
+603,The Matrix,minilm,7,10428,Hackers,0.493929386138916,"Action, Science Fiction","Action, Crime, Drama, Thriller",Action,1,0.2
+603,The Matrix,minilm,8,624860,The Matrix Resurrections,0.49223294854164124,"Action, Science Fiction","Action, Adventure, Science Fiction","Action, Science Fiction",1,0.6666666666666666
+603,The Matrix,minilm,9,10945,Jumpin' Jack Flash,0.4786674678325653,"Action, Science Fiction","Comedy, Romance, Thriller",,0,0.0
+603,The Matrix,minilm,10,55931,The Animatrix,0.477766752243042,"Action, Science Fiction","Animation, Science Fiction",Science Fiction,1,0.3333333333333333
+603,The Matrix,mpnet,1,624860,The Matrix Resurrections,0.5928363800048828,"Action, Science Fiction","Action, Adventure, Science Fiction","Action, Science Fiction",1,0.6666666666666666
+603,The Matrix,mpnet,2,605,The Matrix Revolutions,0.5722343921661377,"Action, Science Fiction","Action, Adventure, Science Fiction, Thriller","Action, Science Fiction",1,0.5
+603,The Matrix,mpnet,3,205596,The Imitation Game,0.5610901117324829,"Action, Science Fiction","Drama, History, Thriller, War",,0,0.0
+603,The Matrix,mpnet,4,55931,The Animatrix,0.5513427257537842,"Action, Science Fiction","Animation, Science Fiction",Science Fiction,1,0.3333333333333333
+603,The Matrix,mpnet,5,604,The Matrix Reloaded,0.5271527171134949,"Action, Science Fiction","Action, Adventure, Science Fiction, Thriller","Action, Science Fiction",1,0.5
+603,The Matrix,mpnet,6,586810,Mars Express,0.506683349609375,"Action, Science Fiction","Animation, Science Fiction, Thriller",Science Fiction,1,0.25
+603,The Matrix,mpnet,7,10945,Jumpin' Jack Flash,0.49688810110092163,"Action, Science Fiction","Comedy, Romance, Thriller",,0,0.0
+603,The Matrix,mpnet,8,670292,The Creator,0.4958993196487427,"Action, Science Fiction","Action, Adventure, Science Fiction","Action, Science Fiction",1,0.6666666666666666
+603,The Matrix,mpnet,9,2322,Sneakers,0.4925493001937866,"Action, Science Fiction","Comedy, Crime, Drama",,0,0.0
+603,The Matrix,mpnet,10,97,Tron,0.49227815866470337,"Action, Science Fiction","Action, Adventure, Science Fiction","Action, Science Fiction",1,0.6666666666666666
+603,The Matrix,gte_modernbert,1,860,WarGames,0.7359635233879089,"Action, Science Fiction","Drama, Science Fiction, Thriller",Science Fiction,1,0.25
+603,The Matrix,gte_modernbert,2,9323,Ghost in the Shell,0.7282288074493408,"Action, Science Fiction","Action, Animation, Science Fiction","Action, Science Fiction",1,0.6666666666666666
+603,The Matrix,gte_modernbert,3,604,The Matrix Reloaded,0.7250813245773315,"Action, Science Fiction","Action, Adventure, Science Fiction, Thriller","Action, Science Fiction",1,0.5
+603,The Matrix,gte_modernbert,4,97,Tron,0.7240980863571167,"Action, Science Fiction","Action, Adventure, Science Fiction","Action, Science Fiction",1,0.6666666666666666
+603,The Matrix,gte_modernbert,5,363579,The Age of Shadows,0.7238298654556274,"Action, Science Fiction","Action, History, Thriller",Action,1,0.25
+603,The Matrix,gte_modernbert,6,605,The Matrix Revolutions,0.72278892993927,"Action, Science Fiction","Action, Adventure, Science Fiction, Thriller","Action, Science Fiction",1,0.5
+603,The Matrix,gte_modernbert,7,284427,Who Am I,0.7221059799194336,"Action, Science Fiction",Thriller,,0,0.0
+603,The Matrix,gte_modernbert,8,87101,Terminator Genisys,0.7212311029434204,"Action, Science Fiction","Action, Science Fiction, Thriller","Action, Science Fiction",1,0.6666666666666666
+603,The Matrix,gte_modernbert,9,586810,Mars Express,0.72038733959198,"Action, Science Fiction","Animation, Science Fiction, Thriller",Science Fiction,1,0.25
+603,The Matrix,gte_modernbert,10,10999,Commando,0.7196038365364075,"Action, Science Fiction","Action, Adventure, Thriller",Action,1,0.25
+597,Titanic,minilm,1,19997,Niagara,0.4954584538936615,"Drama, Romance","Crime, Thriller",,0,0.0
+597,Titanic,minilm,2,13283,Barbie as the Island Princess,0.4662162661552429,"Drama, Romance","Animation, Family",,0,0.0
+597,Titanic,minilm,3,25189,The Mirror Has Two Faces,0.45135626196861267,"Drama, Romance","Comedy, Drama, Romance","Drama, Romance",1,0.6666666666666666
+597,Titanic,minilm,4,588,Silent Hill,0.4405806064605713,"Drama, Romance","Horror, Mystery",,0,0.0
+597,Titanic,minilm,5,490445,Dumped,0.42291539907455444,"Drama, Romance",Comedy,,0,0.0
+597,Titanic,minilm,6,11489,Rosetta,0.39672479033470154,"Drama, Romance",Drama,Drama,1,0.5
+597,Titanic,minilm,7,10493,Dead Calm,0.394619345664978,"Drama, Romance","Horror, Thriller",,0,0.0
+597,Titanic,minilm,8,635910,The Last Voyage of the Demeter,0.3931366205215454,"Drama, Romance","Fantasy, Horror",,0,0.0
+597,Titanic,minilm,9,8966,Twilight,0.38000988960266113,"Drama, Romance","Drama, Fantasy, Romance","Drama, Romance",1,0.6666666666666666
+597,Titanic,minilm,10,4587,Mermaids,0.3770739436149597,"Drama, Romance","Comedy, Drama, Romance","Drama, Romance",1,0.6666666666666666
+597,Titanic,mpnet,1,12155,Alice in Wonderland,0.4504970610141754,"Drama, Romance","Adventure, Family, Fantasy",,0,0.0
+597,Titanic,mpnet,2,19997,Niagara,0.4445120394229889,"Drama, Romance","Crime, Thriller",,0,0.0
+597,Titanic,mpnet,3,401200,Kursk,0.43096858263015747,"Drama, Romance","Action, Drama, History, Thriller",Drama,1,0.2
+597,Titanic,mpnet,4,27374,Lake Mungo,0.4263554811477661,"Drama, Romance","Horror, Thriller",,0,0.0
+597,Titanic,mpnet,5,309304,Grandma,0.41582125425338745,"Drama, Romance","Comedy, Drama",Drama,1,0.3333333333333333
+597,Titanic,mpnet,6,13283,Barbie as the Island Princess,0.4118462800979614,"Drama, Romance","Animation, Family",,0,0.0
+597,Titanic,mpnet,7,293863,The Age of Adaline,0.40932467579841614,"Drama, Romance","Drama, Fantasy, Romance","Drama, Romance",1,0.6666666666666666
+597,Titanic,mpnet,8,503,Poseidon,0.40274879336357117,"Drama, Romance","Action, Adventure, Drama, Thriller",Drama,1,0.2
+597,Titanic,mpnet,9,10867,Malena,0.39568960666656494,"Drama, Romance",Drama,Drama,1,0.5
+597,Titanic,mpnet,10,311291,45 Years,0.3917217254638672,"Drama, Romance","Drama, Romance","Drama, Romance",1,1.0
+597,Titanic,gte_modernbert,1,2252,Eastern Promises,0.6408401727676392,"Drama, Romance","Crime, Mystery, Thriller",,0,0.0
+597,Titanic,gte_modernbert,2,551,The Poseidon Adventure,0.6400470733642578,"Drama, Romance","Adventure, Drama, Thriller",Drama,1,0.25
+597,Titanic,gte_modernbert,3,21057,Ocean Waves,0.6358355283737183,"Drama, Romance","Animation, Drama, Romance","Drama, Romance",1,0.6666666666666666
+597,Titanic,gte_modernbert,4,785542,The Outrun,0.6348251104354858,"Drama, Romance",Drama,Drama,1,0.5
+597,Titanic,gte_modernbert,5,1290879,The Woman in Cabin 10,0.6345946788787842,"Drama, Romance","Crime, Mystery, Thriller",,0,0.0
+597,Titanic,gte_modernbert,6,332340,Man Up,0.6331479549407959,"Drama, Romance","Comedy, Romance",Romance,1,0.3333333333333333
+597,Titanic,gte_modernbert,7,10606,The Philadelphia Experiment,0.6314542889595032,"Drama, Romance","Adventure, Science Fiction, Thriller",,0,0.0
+597,Titanic,gte_modernbert,8,490445,Dumped,0.6312099695205688,"Drama, Romance",Comedy,,0,0.0
+597,Titanic,gte_modernbert,9,9073,Free Willy 2: The Adventure Home,0.6300264000892639,"Drama, Romance","Adventure, Comedy, Drama, Family",Drama,1,0.2
+597,Titanic,gte_modernbert,10,363676,Sully,0.6298248171806335,"Drama, Romance","Drama, History",Drama,1,0.3333333333333333
+348,Alien,minilm,1,679,Aliens,0.48905473947525024,"Horror, Science Fiction","Action, Science Fiction, Thriller",Science Fiction,1,0.25
+348,Alien,minilm,2,9964,Bad Taste,0.4692290723323822,"Horror, Science Fiction","Action, Comedy, Horror, Science Fiction","Horror, Science Fiction",1,0.5
+348,Alien,minilm,3,945961,Alien: Romulus,0.45571959018707275,"Horror, Science Fiction","Horror, Science Fiction","Horror, Science Fiction",1,1.0
+348,Alien,minilm,4,70981,Prometheus,0.4421384930610657,"Horror, Science Fiction","Horror, Mystery, Science Fiction","Horror, Science Fiction",1,0.6666666666666666
+348,Alien,minilm,5,56832,Gantz,0.4351177215576172,"Horror, Science Fiction","Action, Horror, Science Fiction","Horror, Science Fiction",1,0.6666666666666666
+348,Alien,minilm,6,274870,Passengers,0.43173277378082275,"Horror, Science Fiction","Drama, Romance, Science Fiction",Science Fiction,1,0.25
+348,Alien,minilm,7,1682,Mothra vs. Godzilla,0.43017733097076416,"Horror, Science Fiction","Action, Drama, Science Fiction",Science Fiction,1,0.25
+348,Alien,minilm,8,190847,The Last Days on Mars,0.42924070358276367,"Horror, Science Fiction","Horror, Science Fiction, Thriller","Horror, Science Fiction",1,0.6666666666666666
+348,Alien,minilm,9,174772,Europa Report,0.4292157292366028,"Horror, Science Fiction","Science Fiction, Thriller",Science Fiction,1,0.3333333333333333
+348,Alien,minilm,10,43933,Monsters,0.4248760938644409,"Horror, Science Fiction","Drama, Science Fiction, Thriller",Science Fiction,1,0.25
+348,Alien,mpnet,1,945961,Alien: Romulus,0.6173275709152222,"Horror, Science Fiction","Horror, Science Fiction","Horror, Science Fiction",1,1.0
+348,Alien,mpnet,2,54318,The Water Horse,0.5463731288909912,"Horror, Science Fiction","Adventure, Family, Fantasy",,0,0.0
+348,Alien,mpnet,3,9457,Deep Rising,0.5462358593940735,"Horror, Science Fiction","Action, Adventure, Horror, Science Fiction","Horror, Science Fiction",1,0.5
+348,Alien,mpnet,4,517302,Hatching,0.5345017313957214,"Horror, Science Fiction","Fantasy, Horror",Horror,1,0.3333333333333333
+348,Alien,mpnet,5,9645,Ghost Ship,0.5223428010940552,"Horror, Science Fiction","Horror, Mystery, Thriller",Horror,1,0.25
+348,Alien,mpnet,6,56832,Gantz,0.5165531039237976,"Horror, Science Fiction","Action, Horror, Science Fiction","Horror, Science Fiction",1,0.6666666666666666
+348,Alien,mpnet,7,573164,An Egg Rescue,0.5142140984535217,"Horror, Science Fiction","Adventure, Animation, Comedy, Family",,0,0.0
+348,Alien,mpnet,8,13220,Splinter,0.5043134093284607,"Horror, Science Fiction","Crime, Horror, Science Fiction, Thriller","Horror, Science Fiction",1,0.5
+348,Alien,mpnet,9,60935,The Thing,0.4983477294445038,"Horror, Science Fiction","Horror, Mystery, Science Fiction","Horror, Science Fiction",1,0.6666666666666666
+348,Alien,mpnet,10,16672,Woman in the Dunes,0.4974820613861084,"Horror, Science Fiction","Drama, Thriller",,0,0.0
+348,Alien,gte_modernbert,1,945961,Alien: Romulus,0.80396568775177,"Horror, Science Fiction","Horror, Science Fiction","Horror, Science Fiction",1,1.0
+348,Alien,gte_modernbert,2,1685,Beneath the Planet of the Apes,0.7698007822036743,"Horror, Science Fiction","Adventure, Mystery, Science Fiction",Science Fiction,1,0.25
+348,Alien,gte_modernbert,3,174772,Europa Report,0.7635917663574219,"Horror, Science Fiction","Science Fiction, Thriller",Science Fiction,1,0.3333333333333333
+348,Alien,gte_modernbert,4,8413,Event Horizon,0.7614311575889587,"Horror, Science Fiction","Horror, Mystery, Science Fiction","Horror, Science Fiction",1,0.6666666666666666
+348,Alien,gte_modernbert,5,10153,Sphere,0.7582783699035645,"Horror, Science Fiction","Mystery, Science Fiction, Thriller",Science Fiction,1,0.25
+348,Alien,gte_modernbert,6,9645,Ghost Ship,0.754321813583374,"Horror, Science Fiction","Horror, Mystery, Thriller",Horror,1,0.25
+348,Alien,gte_modernbert,7,68179,Escape from Planet Earth,0.7512044906616211,"Horror, Science Fiction","Adventure, Animation, Comedy, Family, Science Fiction",Science Fiction,1,0.16666666666666666
+348,Alien,gte_modernbert,8,274870,Passengers,0.7497692704200745,"Horror, Science Fiction","Drama, Romance, Science Fiction",Science Fiction,1,0.25
+348,Alien,gte_modernbert,9,559581,Stowaway,0.7495502233505249,"Horror, Science Fiction","Drama, Science Fiction, Thriller",Science Fiction,1,0.25
+348,Alien,gte_modernbert,10,1086260,The Astronaut,0.740861713886261,"Horror, Science Fiction","Horror, Science Fiction, Thriller","Horror, Science Fiction",1,0.6666666666666666
+9552,The Exorcist,minilm,1,439079,The Nun,0.6035308241844177,"Drama, Horror",Horror,Horror,1,0.5
+9552,The Exorcist,minilm,2,676547,Prey for the Devil,0.5964586734771729,"Drama, Horror","Horror, Thriller",Horror,1,0.3333333333333333
+9552,The Exorcist,minilm,3,420245,Don't Knock Twice,0.5799130201339722,"Drama, Horror",Horror,Horror,1,0.5
+9552,The Exorcist,minilm,4,22536,Thirst,0.5737549066543579,"Drama, Horror","Drama, Horror, Thriller","Drama, Horror",1,0.6666666666666666
+9552,The Exorcist,minilm,5,36298,"Me, Them and Lara",0.5519657731056213,"Drama, Horror","Comedy, Drama",Drama,1,0.3333333333333333
+9552,The Exorcist,minilm,6,437342,The First Omen,0.5405704975128174,"Drama, Horror",Horror,Horror,1,0.5
+9552,The Exorcist,minilm,7,409297,A Dark Song,0.5382930040359497,"Drama, Horror","Fantasy, Horror, Mystery",Horror,1,0.25
+9552,The Exorcist,minilm,8,31767,The Devils,0.537041187286377,"Drama, Horror","Drama, History, Horror","Drama, Horror",1,0.6666666666666666
+9552,The Exorcist,minilm,9,448194,Pyewacket,0.5311278104782104,"Drama, Horror","Horror, Thriller",Horror,1,0.3333333333333333
+9552,The Exorcist,minilm,10,364116,The Other Side of the Door,0.5192806720733643,"Drama, Horror","Horror, Thriller",Horror,1,0.3333333333333333
+9552,The Exorcist,mpnet,1,439079,The Nun,0.7467919588088989,"Drama, Horror",Horror,Horror,1,0.5
+9552,The Exorcist,mpnet,2,437342,The First Omen,0.7135827541351318,"Drama, Horror",Horror,Horror,1,0.5
+9552,The Exorcist,mpnet,3,420245,Don't Knock Twice,0.7089498043060303,"Drama, Horror",Horror,Horror,1,0.5
+9552,The Exorcist,mpnet,4,676547,Prey for the Devil,0.696666955947876,"Drama, Horror","Horror, Thriller",Horror,1,0.3333333333333333
+9552,The Exorcist,mpnet,5,1041613,Immaculate,0.6944229602813721,"Drama, Horror","Horror, Mystery, Thriller",Horror,1,0.25
+9552,The Exorcist,mpnet,6,480414,The Curse of La Llorona,0.6909428238868713,"Drama, Horror",Horror,Horror,1,0.5
+9552,The Exorcist,mpnet,7,31767,The Devils,0.6809503436088562,"Drama, Horror","Drama, History, Horror","Drama, Horror",1,0.6666666666666666
+9552,The Exorcist,mpnet,8,36298,"Me, Them and Lara",0.6687700748443604,"Drama, Horror","Comedy, Drama",Drama,1,0.3333333333333333
+9552,The Exorcist,mpnet,9,409297,A Dark Song,0.658627986907959,"Drama, Horror","Fantasy, Horror, Mystery",Horror,1,0.25
+9552,The Exorcist,mpnet,10,335796,Ouija: Origin of Evil,0.6574355363845825,"Drama, Horror",Horror,Horror,1,0.5
+9552,The Exorcist,gte_modernbert,1,439079,The Nun,0.8274049758911133,"Drama, Horror",Horror,Horror,1,0.5
+9552,The Exorcist,gte_modernbert,2,758323,The Pope's Exorcist,0.8184202313423157,"Drama, Horror","Horror, Thriller",Horror,1,0.3333333333333333
+9552,The Exorcist,gte_modernbert,3,516632,The Empty Man,0.8181661367416382,"Drama, Horror","Horror, Mystery",Horror,1,0.3333333333333333
+9552,The Exorcist,gte_modernbert,4,420245,Don't Knock Twice,0.8173508644104004,"Drama, Horror",Horror,Horror,1,0.5
+9552,The Exorcist,gte_modernbert,5,437342,The First Omen,0.8159432411193848,"Drama, Horror",Horror,Horror,1,0.5
+9552,The Exorcist,gte_modernbert,6,24740,The Entity,0.806975781917572,"Drama, Horror","Horror, Mystery, Thriller",Horror,1,0.25
+9552,The Exorcist,gte_modernbert,7,86597,The Tall Man,0.7997465133666992,"Drama, Horror","Horror, Mystery, Thriller",Horror,1,0.25
+9552,The Exorcist,gte_modernbert,8,345911,Lights Out,0.7907090187072754,"Drama, Horror",Horror,Horror,1,0.5
+9552,The Exorcist,gte_modernbert,9,968051,The Nun II,0.7898827791213989,"Drama, Horror",Horror,Horror,1,0.5
+9552,The Exorcist,gte_modernbert,10,864370,Incantation,0.7875611782073975,"Drama, Horror",Horror,Horror,1,0.5
+857,Saving Private Ryan,minilm,1,3088,My Darling Clementine,0.5072590112686157,"Drama, History, War",Western,,0,0.0
+857,Saving Private Ryan,minilm,2,7445,Brothers,0.505800724029541,"Drama, History, War","Drama, Thriller, War","Drama, War",1,0.5
+857,Saving Private Ryan,minilm,3,728526,Encounter,0.5048142671585083,"Drama, History, War","Drama, Mystery, Thriller",Drama,1,0.2
+857,Saving Private Ryan,minilm,4,438799,Overlord,0.5031417608261108,"Drama, History, War","Horror, Science Fiction, War",War,1,0.2
+857,Saving Private Ryan,minilm,5,10105,Saints and Soldiers,0.48311716318130493,"Drama, History, War","Drama, History, War","Drama, History, War",1,1.0
+857,Saving Private Ryan,minilm,6,11658,Tae Guk Gi: The Brotherhood of War,0.4827028512954712,"Drama, History, War","Action, Adventure, Drama, History, War","Drama, History, War",1,0.6
+857,Saving Private Ryan,minilm,7,10782,Basic,0.4807679057121277,"Drama, History, War","Action, Crime, Thriller",,0,0.0
+857,Saving Private Ryan,minilm,8,10911,The Guns of Navarone,0.47065553069114685,"Drama, History, War","Action, Adventure, Drama, War","Drama, War",1,0.4
+857,Saving Private Ryan,minilm,9,228150,Fury,0.46263524889945984,"Drama, History, War","Action, Drama, War","Drama, War",1,0.5
+857,Saving Private Ryan,minilm,10,354861,Father Figures,0.45740532875061035,"Drama, History, War",Comedy,,0,0.0
+857,Saving Private Ryan,mpnet,1,10590,We Were Soldiers,0.6285861134529114,"Drama, History, War","Action, History, War","History, War",1,0.5
+857,Saving Private Ryan,mpnet,2,10592,Hart's War,0.6228880882263184,"Drama, History, War","Drama, War","Drama, War",1,0.6666666666666666
+857,Saving Private Ryan,mpnet,3,293767,Billy Lynn's Long Halftime Walk,0.6222367286682129,"Drama, History, War","Drama, War","Drama, War",1,0.6666666666666666
+857,Saving Private Ryan,mpnet,4,728526,Encounter,0.6207137107849121,"Drama, History, War","Drama, Mystery, Thriller",Drama,1,0.2
+857,Saving Private Ryan,mpnet,5,10105,Saints and Soldiers,0.6108236908912659,"Drama, History, War","Drama, History, War","Drama, History, War",1,1.0
+857,Saving Private Ryan,mpnet,6,13922,The Great Raid,0.609508752822876,"Drama, History, War","Action, History, War","History, War",1,0.5
+857,Saving Private Ryan,mpnet,7,16121,The Big Red One,0.602325439453125,"Drama, History, War","Drama, War","Drama, War",1,0.6666666666666666
+857,Saving Private Ryan,mpnet,8,335578,Land of Mine,0.5941399335861206,"Drama, History, War","Drama, History, War","Drama, History, War",1,1.0
+857,Saving Private Ryan,mpnet,9,374720,Dunkirk,0.5855442881584167,"Drama, History, War","Action, Drama, War","Drama, War",1,0.5
+857,Saving Private Ryan,mpnet,10,8007,Behind Enemy Lines,0.5836328864097595,"Drama, History, War","Action, Drama, Thriller, War","Drama, War",1,0.4
+857,Saving Private Ryan,gte_modernbert,1,10105,Saints and Soldiers,0.7879207134246826,"Drama, History, War","Drama, History, War","Drama, History, War",1,1.0
+857,Saving Private Ryan,gte_modernbert,2,11880,Dog Soldiers,0.7724818587303162,"Drama, History, War","Action, Horror, Thriller",,0,0.0
+857,Saving Private Ryan,gte_modernbert,3,438799,Overlord,0.7629709243774414,"Drama, History, War","Horror, Science Fiction, War",War,1,0.2
+857,Saving Private Ryan,gte_modernbert,4,347629,Thank You for Your Service,0.7486148476600647,"Drama, History, War","Drama, War","Drama, War",1,0.6666666666666666
+857,Saving Private Ryan,gte_modernbert,5,13922,The Great Raid,0.7473406195640564,"Drama, History, War","Action, History, War","History, War",1,0.5
+857,Saving Private Ryan,gte_modernbert,6,1223601,Sisu: Road to Revenge,0.7461252808570862,"Drama, History, War","Action, Thriller, War",War,1,0.2
+857,Saving Private Ryan,gte_modernbert,7,1241436,Warfare,0.7445396780967712,"Drama, History, War","Action, War",War,1,0.25
+857,Saving Private Ryan,gte_modernbert,8,728526,Encounter,0.7378441691398621,"Drama, History, War","Drama, Mystery, Thriller",Drama,1,0.2
+857,Saving Private Ryan,gte_modernbert,9,335578,Land of Mine,0.7375582456588745,"Drama, History, War","Drama, History, War","Drama, History, War",1,1.0
+857,Saving Private Ryan,gte_modernbert,10,855,Black Hawk Down,0.7367181777954102,"Drama, History, War","Action, History, War","History, War",1,0.5
+11036,The Notebook,minilm,1,228205,The Longest Ride,0.6876336336135864,"Drama, Romance","Drama, Romance","Drama, Romance",1,1.0
+11036,The Notebook,minilm,2,301875,Equals,0.6088880300521851,"Drama, Romance","Drama, Romance, Science Fiction","Drama, Romance",1,0.6666666666666666
+11036,The Notebook,minilm,3,779047,Us Again,0.5937389135360718,"Drama, Romance","Animation, Drama, Family, Romance","Drama, Romance",1,0.5
+11036,The Notebook,minilm,4,256962,Little Boy,0.5903810858726501,"Drama, Romance","Comedy, Drama, War",Drama,1,0.25
+11036,The Notebook,minilm,5,111969,Stuck in Love,0.5762850046157837,"Drama, Romance","Comedy, Drama, Romance","Drama, Romance",1,0.6666666666666666
+11036,The Notebook,minilm,6,263341,"Crouching Tiger, Hidden Dragon: Sword of Destiny",0.5754181146621704,"Drama, Romance","Action, Adventure, Drama",Drama,1,0.25
+11036,The Notebook,minilm,7,10207,Message in a Bottle,0.5735796689987183,"Drama, Romance","Drama, Romance","Drama, Romance",1,1.0
+11036,The Notebook,minilm,8,5852,Angel Eyes,0.5635135173797607,"Drama, Romance","Drama, Romance, Thriller","Drama, Romance",1,0.6666666666666666
+11036,The Notebook,minilm,9,192145,Third Person,0.5587270259857178,"Drama, Romance","Drama, Romance","Drama, Romance",1,1.0
+11036,The Notebook,minilm,10,641662,Pieces of a Woman,0.5514886975288391,"Drama, Romance",Drama,Drama,1,0.5
+11036,The Notebook,mpnet,1,5852,Angel Eyes,0.6979448795318604,"Drama, Romance","Drama, Romance, Thriller","Drama, Romance",1,0.6666666666666666
+11036,The Notebook,mpnet,2,940139,Here,0.6615692973136902,"Drama, Romance",Drama,Drama,1,0.5
+11036,The Notebook,mpnet,3,666,Central Station,0.652722179889679,"Drama, Romance",Drama,Drama,1,0.5
+11036,The Notebook,mpnet,4,376867,Moonlight,0.6476141810417175,"Drama, Romance",Drama,Drama,1,0.5
+11036,The Notebook,mpnet,5,13156,Secondhand Lions,0.6425740122795105,"Drama, Romance","Comedy, Drama, Family",Drama,1,0.25
+11036,The Notebook,mpnet,6,791177,Bones and All,0.6349816918373108,"Drama, Romance","Drama, Horror, Romance","Drama, Romance",1,0.6666666666666666
+11036,The Notebook,mpnet,7,590,The Hours,0.6342959403991699,"Drama, Romance",Drama,Drama,1,0.5
+11036,The Notebook,mpnet,8,47760,Restless,0.6342718601226807,"Drama, Romance","Drama, Romance","Drama, Romance",1,1.0
+11036,The Notebook,mpnet,9,201085,Crimson Peak,0.6314949989318848,"Drama, Romance","Drama, Horror, Mystery, Romance","Drama, Romance",1,0.5
+11036,The Notebook,mpnet,10,492282,Like a Cat on a Highway,0.6301503777503967,"Drama, Romance","Comedy, Family",,0,0.0
+11036,The Notebook,gte_modernbert,1,613090,"Live Twice, Love Once",0.7997701168060303,"Drama, Romance","Comedy, Drama",Drama,1,0.3333333333333333
+11036,The Notebook,gte_modernbert,2,228205,The Longest Ride,0.764275312423706,"Drama, Romance","Drama, Romance","Drama, Romance",1,1.0
+11036,The Notebook,gte_modernbert,3,946,Letter from an Unknown Woman,0.7628867030143738,"Drama, Romance","Drama, Romance","Drama, Romance",1,1.0
+11036,The Notebook,gte_modernbert,4,15859,A Moment to Remember,0.7598627805709839,"Drama, Romance","Drama, Romance","Drama, Romance",1,1.0
+11036,The Notebook,gte_modernbert,5,595975,La Belle Époque,0.7526612877845764,"Drama, Romance","Comedy, Drama",Drama,1,0.3333333333333333
+11036,The Notebook,gte_modernbert,6,570131,Love at Second Sight,0.743338942527771,"Drama, Romance","Comedy, Fantasy, Romance",Romance,1,0.25
+11036,The Notebook,gte_modernbert,7,10207,Message in a Bottle,0.7394159436225891,"Drama, Romance","Drama, Romance","Drama, Romance",1,1.0
+11036,The Notebook,gte_modernbert,8,6639,Love in the Time of Cholera,0.738842248916626,"Drama, Romance","Drama, Romance","Drama, Romance",1,1.0
+11036,The Notebook,gte_modernbert,9,57157,Young Adult,0.7368338704109192,"Drama, Romance","Comedy, Drama",Drama,1,0.3333333333333333
+11036,The Notebook,gte_modernbert,10,642208,Supernova,0.7329984903335571,"Drama, Romance","Drama, Romance","Drama, Romance",1,1.0
+12,Finding Nemo,minilm,1,103758,Reality,0.4539652466773987,"Adventure, Animation, Family","Comedy, Drama",,0,0.0
+12,Finding Nemo,minilm,2,663558,New Gods: Nezha Reborn,0.45240145921707153,"Adventure, Animation, Family","Action, Animation, Fantasy",Animation,1,0.2
+12,Finding Nemo,minilm,3,421,The Life Aquatic with Steve Zissou,0.44276487827301025,"Adventure, Animation, Family","Adventure, Comedy, Drama",Adventure,1,0.2
+12,Finding Nemo,minilm,4,31011,Mr. Nobody,0.43915310502052307,"Adventure, Animation, Family","Drama, Romance, Science Fiction",,0,0.0
+12,Finding Nemo,minilm,5,13386,I'm Starting from Three,0.42929530143737793,"Adventure, Animation, Family",Comedy,,0,0.0
+12,Finding Nemo,minilm,6,173,"20,000 Leagues Under the Sea",0.4269733726978302,"Adventure, Animation, Family","Adventure, Fantasy, Science Fiction",Adventure,1,0.2
+12,Finding Nemo,minilm,7,36355,Flipper,0.4197697639465332,"Adventure, Animation, Family","Adventure, Family","Adventure, Family",1,0.6666666666666666
+12,Finding Nemo,minilm,8,9825,Lake Placid,0.41298943758010864,"Adventure, Animation, Family","Action, Comedy, Horror, Science Fiction, Thriller",,0,0.0
+12,Finding Nemo,minilm,9,579,Jaws 2,0.4122997522354126,"Adventure, Animation, Family","Horror, Thriller",,0,0.0
+12,Finding Nemo,minilm,10,403119,47 Meters Down,0.41018036007881165,"Adventure, Animation, Family","Horror, Thriller",,0,0.0
+12,Finding Nemo,mpnet,1,127380,Finding Dory,0.5647045373916626,"Adventure, Animation, Family","Adventure, Animation, Family","Adventure, Animation, Family",1,1.0
+12,Finding Nemo,mpnet,2,173,"20,000 Leagues Under the Sea",0.5594567060470581,"Adventure, Animation, Family","Adventure, Fantasy, Science Fiction",Adventure,1,0.2
+12,Finding Nemo,mpnet,3,31011,Mr. Nobody,0.5074294209480286,"Adventure, Animation, Family","Drama, Romance, Science Fiction",,0,0.0
+12,Finding Nemo,mpnet,4,421,The Life Aquatic with Steve Zissou,0.5063954591751099,"Adventure, Animation, Family","Adventure, Comedy, Drama",Adventure,1,0.2
+12,Finding Nemo,mpnet,5,830784,"Lyle, Lyle, Crocodile",0.5042234659194946,"Adventure, Animation, Family","Comedy, Family, Music",Family,1,0.2
+12,Finding Nemo,mpnet,6,57800,Ice Age: Continental Drift,0.49422532320022583,"Adventure, Animation, Family","Adventure, Animation, Comedy, Family","Adventure, Animation, Family",1,0.75
+12,Finding Nemo,mpnet,7,703745,Deep Blue Sea 3,0.47877049446105957,"Adventure, Animation, Family","Action, Horror, Science Fiction",,0,0.0
+12,Finding Nemo,mpnet,8,36355,Flipper,0.4763304889202118,"Adventure, Animation, Family","Adventure, Family","Adventure, Family",1,0.6666666666666666
+12,Finding Nemo,mpnet,9,890771,The Black Demon,0.4740315079689026,"Adventure, Animation, Family","Horror, Thriller",,0,0.0
+12,Finding Nemo,mpnet,10,578,Jaws,0.464042067527771,"Adventure, Animation, Family","Adventure, Horror, Thriller",Adventure,1,0.2
+12,Finding Nemo,gte_modernbert,1,127380,Finding Dory,0.7661049365997314,"Adventure, Animation, Family","Adventure, Animation, Family","Adventure, Animation, Family",1,1.0
+12,Finding Nemo,gte_modernbert,2,12429,Ponyo,0.71086186170578,"Adventure, Animation, Family","Animation, Family, Fantasy","Animation, Family",1,0.5
+12,Finding Nemo,gte_modernbert,3,703745,Deep Blue Sea 3,0.7071529626846313,"Adventure, Animation, Family","Action, Horror, Science Fiction",,0,0.0
+12,Finding Nemo,gte_modernbert,4,345940,The Meg,0.6943873167037964,"Adventure, Animation, Family","Action, Horror, Science Fiction",,0,0.0
+12,Finding Nemo,gte_modernbert,5,24831,Piranha,0.6929954886436462,"Adventure, Animation, Family","Comedy, Horror, Science Fiction",,0,0.0
+12,Finding Nemo,gte_modernbert,6,10555,Shark Tale,0.6906754374504089,"Adventure, Animation, Family","Action, Animation, Comedy, Family","Animation, Family",1,0.4
+12,Finding Nemo,gte_modernbert,7,9825,Lake Placid,0.6802117228507996,"Adventure, Animation, Family","Action, Comedy, Horror, Science Fiction, Thriller",,0,0.0
+12,Finding Nemo,gte_modernbert,8,890771,The Black Demon,0.6772867441177368,"Adventure, Animation, Family","Horror, Thriller",,0,0.0
+12,Finding Nemo,gte_modernbert,9,12609,Help! I'm a Fish,0.676439642906189,"Adventure, Animation, Family","Adventure, Animation, Comedy, Drama, Family","Adventure, Animation, Family",1,0.6
+12,Finding Nemo,gte_modernbert,10,9904,The Wild,0.6746686697006226,"Adventure, Animation, Family","Action, Adventure, Animation, Comedy, Family","Adventure, Animation, Family",1,0.6
+807,Se7en,minilm,1,866463,Reptile,0.55806565284729,"Crime, Mystery, Thriller","Crime, Drama, Mystery, Thriller","Crime, Mystery, Thriller",1,0.75
+807,Se7en,minilm,2,8080,Suspect Zero,0.5265592336654663,"Crime, Mystery, Thriller","Crime, Thriller","Crime, Thriller",1,0.6666666666666666
+807,Se7en,minilm,3,385332,Terminal,0.52479088306427,"Crime, Mystery, Thriller","Action, Comedy, Crime, Drama, Mystery, Thriller","Crime, Mystery, Thriller",1,0.5
+807,Se7en,minilm,4,60670,The Crimson Rivers,0.521324872970581,"Crime, Mystery, Thriller","Crime, Mystery, Thriller","Crime, Mystery, Thriller",1,1.0
+807,Se7en,minilm,5,845,Strangers on a Train,0.5210976600646973,"Crime, Mystery, Thriller","Crime, Drama, Thriller","Crime, Thriller",1,0.5
+807,Se7en,minilm,6,60672,Crimson Rivers II: Angels of the Apocalypse,0.5195655822753906,"Crime, Mystery, Thriller","Action, Crime, Thriller","Crime, Thriller",1,0.5
+807,Se7en,minilm,7,10359,Resurrection,0.5195035934448242,"Crime, Mystery, Thriller","Crime, Horror, Mystery","Crime, Mystery",1,0.5
+807,Se7en,minilm,8,1252,Lonely Hearts,0.5086677670478821,"Crime, Mystery, Thriller","Crime, Drama, Romance, Thriller","Crime, Thriller",1,0.4
+807,Se7en,minilm,9,38410,The Poughkeepsie Tapes,0.5069700479507446,"Crime, Mystery, Thriller","Crime, Horror, Mystery, Thriller","Crime, Mystery, Thriller",1,0.75
+807,Se7en,minilm,10,2212,Nightwatch,0.5063180923461914,"Crime, Mystery, Thriller","Drama, Horror, Mystery, Thriller","Mystery, Thriller",1,0.4
+807,Se7en,mpnet,1,171540,Big Bad Wolves,0.6678299307823181,"Crime, Mystery, Thriller","Comedy, Crime, Drama, Horror, Thriller","Crime, Thriller",1,0.3333333333333333
+807,Se7en,mpnet,2,60672,Crimson Rivers II: Angels of the Apocalypse,0.6595883965492249,"Crime, Mystery, Thriller","Action, Crime, Thriller","Crime, Thriller",1,0.5
+807,Se7en,mpnet,3,184346,Deliver Us from Evil,0.6290000677108765,"Crime, Mystery, Thriller","Crime, Horror, Thriller","Crime, Thriller",1,0.5
+807,Se7en,mpnet,4,18476,Horsemen,0.6173887252807617,"Crime, Mystery, Thriller","Crime, Drama, Horror, Mystery, Thriller","Crime, Mystery, Thriller",1,0.6
+807,Se7en,mpnet,5,60670,The Crimson Rivers,0.6152216196060181,"Crime, Mystery, Thriller","Crime, Mystery, Thriller","Crime, Mystery, Thriller",1,1.0
+807,Se7en,mpnet,6,913673,Nefarious,0.6121198534965515,"Crime, Mystery, Thriller","Drama, Horror",,0,0.0
+807,Se7en,mpnet,7,10359,Resurrection,0.610249400138855,"Crime, Mystery, Thriller","Crime, Horror, Mystery","Crime, Mystery",1,0.5
+807,Se7en,mpnet,8,862552,The Ritual Killer,0.6051096320152283,"Crime, Mystery, Thriller","Action, Drama, Mystery, Thriller","Mystery, Thriller",1,0.4
+807,Se7en,mpnet,9,10779,The Frighteners,0.6015043258666992,"Crime, Mystery, Thriller","Comedy, Horror",,0,0.0
+807,Se7en,mpnet,10,38358,The Last Exorcism,0.6008859872817993,"Crime, Mystery, Thriller","Horror, Mystery, Thriller","Mystery, Thriller",1,0.5
+807,Se7en,gte_modernbert,1,323368,Hangman,0.7973289489746094,"Crime, Mystery, Thriller","Crime, Mystery, Thriller","Crime, Mystery, Thriller",1,1.0
+807,Se7en,gte_modernbert,2,1710,Copycat,0.7915645241737366,"Crime, Mystery, Thriller","Crime, Mystery, Thriller","Crime, Mystery, Thriller",1,1.0
+807,Se7en,gte_modernbert,3,60670,The Crimson Rivers,0.7753856778144836,"Crime, Mystery, Thriller","Crime, Mystery, Thriller","Crime, Mystery, Thriller",1,1.0
+807,Se7en,gte_modernbert,4,30874,The New York Ripper,0.7702326774597168,"Crime, Mystery, Thriller","Crime, Horror, Mystery, Thriller","Crime, Mystery, Thriller",1,0.75
+807,Se7en,gte_modernbert,5,823855,I Am All Girls,0.7680355310440063,"Crime, Mystery, Thriller","Crime, Drama, Mystery, Thriller","Crime, Mystery, Thriller",1,0.75
+807,Se7en,gte_modernbert,6,13389,Righteous Kill,0.7679397463798523,"Crime, Mystery, Thriller","Crime, Mystery, Thriller","Crime, Mystery, Thriller",1,1.0
+807,Se7en,gte_modernbert,7,11423,Memories of Murder,0.7594119906425476,"Crime, Mystery, Thriller","Crime, Drama, Thriller","Crime, Thriller",1,0.5
+807,Se7en,gte_modernbert,8,10909,Kalifornia,0.7581318616867065,"Crime, Mystery, Thriller","Crime, Thriller","Crime, Thriller",1,0.6666666666666666
+807,Se7en,gte_modernbert,9,171540,Big Bad Wolves,0.7500196099281311,"Crime, Mystery, Thriller","Comedy, Crime, Drama, Horror, Thriller","Crime, Thriller",1,0.3333333333333333
+807,Se7en,gte_modernbert,10,1252,Lonely Hearts,0.7488770484924316,"Crime, Mystery, Thriller","Crime, Drama, Romance, Thriller","Crime, Thriller",1,0.4
+274,The Silence of the Lambs,minilm,1,9740,Hannibal,0.6747520565986633,"Crime, Drama, Thriller","Crime, Drama, Thriller","Crime, Drama, Thriller",1,1.0
+274,The Silence of the Lambs,minilm,2,9533,Red Dragon,0.5776968002319336,"Crime, Drama, Thriller","Crime, Horror, Thriller","Crime, Thriller",1,0.5
+274,The Silence of the Lambs,minilm,3,1248,Hannibal Rising,0.5384660363197327,"Crime, Drama, Thriller","Crime, Horror, Thriller","Crime, Thriller",1,0.5
+274,The Silence of the Lambs,minilm,4,11454,Manhunter,0.5263069868087769,"Crime, Drama, Thriller","Crime, Horror, Thriller","Crime, Thriller",1,0.5
+274,The Silence of the Lambs,minilm,5,34544,The A-Team,0.4521127939224243,"Crime, Drama, Thriller","Action, Comedy, Crime",Crime,1,0.2
+274,The Silence of the Lambs,minilm,6,60405,Sharpay's Fabulous Adventure,0.4369414746761322,"Crime, Drama, Thriller","Family, Music",,0,0.0
+274,The Silence of the Lambs,minilm,7,8072,Alphaville,0.43207573890686035,"Crime, Drama, Thriller","Drama, Mystery, Science Fiction",Drama,1,0.2
+274,The Silence of the Lambs,minilm,8,955,Mission: Impossible II,0.4279847741127014,"Crime, Drama, Thriller","Action, Adventure, Thriller",Thriller,1,0.2
+274,The Silence of the Lambs,minilm,9,9535,Analyze This,0.4276624917984009,"Crime, Drama, Thriller","Comedy, Crime",Crime,1,0.25
+274,The Silence of the Lambs,minilm,10,13975,In the Electric Mist,0.4160611629486084,"Crime, Drama, Thriller","Crime, Drama, Mystery, Thriller","Crime, Drama, Thriller",1,0.75
+274,The Silence of the Lambs,mpnet,1,9740,Hannibal,0.6585215330123901,"Crime, Drama, Thriller","Crime, Drama, Thriller","Crime, Drama, Thriller",1,1.0
+274,The Silence of the Lambs,mpnet,2,912480,Red Rooms,0.5464954376220703,"Crime, Drama, Thriller","Crime, Thriller","Crime, Thriller",1,0.6666666666666666
+274,The Silence of the Lambs,mpnet,3,1248,Hannibal Rising,0.5254451036453247,"Crime, Drama, Thriller","Crime, Horror, Thriller","Crime, Thriller",1,0.5
+274,The Silence of the Lambs,mpnet,4,22826,The Monster,0.48991167545318604,"Crime, Drama, Thriller",Comedy,,0,0.0
+274,The Silence of the Lambs,mpnet,5,93,Anatomy of a Murder,0.4801947772502899,"Crime, Drama, Thriller","Crime, Drama, Mystery","Crime, Drama",1,0.5
+274,The Silence of the Lambs,mpnet,6,73499,The Double,0.4709989130496979,"Crime, Drama, Thriller","Action, Crime, Drama","Crime, Drama",1,0.5
+274,The Silence of the Lambs,mpnet,7,22307,Sisters,0.469950795173645,"Crime, Drama, Thriller","Horror, Mystery, Thriller",Thriller,1,0.2
+274,The Silence of the Lambs,mpnet,8,977506,The Crime Is Mine,0.4686697721481323,"Crime, Drama, Thriller","Comedy, Crime, Drama, Mystery","Crime, Drama",1,0.4
+274,The Silence of the Lambs,mpnet,9,10424,Jennifer Eight,0.46595442295074463,"Crime, Drama, Thriller","Crime, Drama, Mystery, Thriller","Crime, Drama, Thriller",1,0.75
+274,The Silence of the Lambs,mpnet,10,11081,Taking Lives,0.46532002091407776,"Crime, Drama, Thriller",Thriller,Thriller,1,0.3333333333333333
+274,The Silence of the Lambs,gte_modernbert,1,12117,Instinct,0.753318727016449,"Crime, Drama, Thriller","Drama, Thriller","Drama, Thriller",1,0.6666666666666666
+274,The Silence of the Lambs,gte_modernbert,2,8843,The Cell,0.7469363808631897,"Crime, Drama, Thriller","Horror, Science Fiction, Thriller",Thriller,1,0.2
+274,The Silence of the Lambs,gte_modernbert,3,9533,Red Dragon,0.7407971024513245,"Crime, Drama, Thriller","Crime, Horror, Thriller","Crime, Thriller",1,0.5
+274,The Silence of the Lambs,gte_modernbert,4,339527,Solace,0.7259845733642578,"Crime, Drama, Thriller","Crime, Mystery, Thriller","Crime, Thriller",1,0.5
+274,The Silence of the Lambs,gte_modernbert,5,823855,I Am All Girls,0.7236842513084412,"Crime, Drama, Thriller","Crime, Drama, Mystery, Thriller","Crime, Drama, Thriller",1,0.75
+274,The Silence of the Lambs,gte_modernbert,6,913673,Nefarious,0.7232904434204102,"Crime, Drama, Thriller","Drama, Horror",Drama,1,0.25
+274,The Silence of the Lambs,gte_modernbert,7,12535,High Anxiety,0.7203517556190491,"Crime, Drama, Thriller","Comedy, Mystery, Thriller",Thriller,1,0.2
+274,The Silence of the Lambs,gte_modernbert,8,890980,God's Crooked Lines,0.7147212624549866,"Crime, Drama, Thriller","Drama, Mystery, Thriller","Drama, Thriller",1,0.5
+274,The Silence of the Lambs,gte_modernbert,9,3489,88 Minutes,0.7122424244880676,"Crime, Drama, Thriller","Mystery, Thriller",Thriller,1,0.25
+274,The Silence of the Lambs,gte_modernbert,10,1248,Hannibal Rising,0.711778461933136,"Crime, Drama, Thriller","Crime, Horror, Thriller","Crime, Thriller",1,0.5
+120,The Lord of the Rings: The Fellowship of the Ring,minilm,1,123,The Lord of the Rings,0.8160908818244934,"Action, Adventure, Fantasy","Adventure, Animation, Fantasy","Adventure, Fantasy",1,0.5
+120,The Lord of the Rings: The Fellowship of the Ring,minilm,2,122,The Lord of the Rings: The Return of the King,0.6990241408348083,"Action, Adventure, Fantasy","Action, Adventure, Fantasy","Action, Adventure, Fantasy",1,1.0
+120,The Lord of the Rings: The Fellowship of the Ring,minilm,3,121,The Lord of the Rings: The Two Towers,0.6611640453338623,"Action, Adventure, Fantasy","Action, Adventure, Fantasy","Action, Adventure, Fantasy",1,1.0
+120,The Lord of the Rings: The Fellowship of the Ring,minilm,4,49051,The Hobbit: An Unexpected Journey,0.6315150856971741,"Action, Adventure, Fantasy","Action, Adventure, Fantasy","Action, Adventure, Fantasy",1,1.0
+120,The Lord of the Rings: The Fellowship of the Ring,minilm,5,1362,The Hobbit,0.550517201423645,"Action, Adventure, Fantasy","Adventure, Animation, Family, Fantasy, TV Movie","Adventure, Fantasy",1,0.3333333333333333
+120,The Lord of the Rings: The Fellowship of the Ring,minilm,6,57158,The Hobbit: The Desolation of Smaug,0.5251602530479431,"Action, Adventure, Fantasy","Action, Adventure, Fantasy","Action, Adventure, Fantasy",1,1.0
+120,The Lord of the Rings: The Fellowship of the Ring,minilm,7,122917,The Hobbit: The Battle of the Five Armies,0.43951526284217834,"Action, Adventure, Fantasy","Action, Adventure, Fantasy","Action, Adventure, Fantasy",1,1.0
+120,The Lord of the Rings: The Fellowship of the Ring,minilm,8,39100,Dragon Ball Z: The World's Strongest,0.3822353482246399,"Action, Adventure, Fantasy","Action, Animation, Science Fiction",Action,1,0.2
+120,The Lord of the Rings: The Fellowship of the Ring,minilm,9,9678,Little Nicky,0.37881070375442505,"Action, Adventure, Fantasy","Comedy, Fantasy",Fantasy,1,0.25
+120,The Lord of the Rings: The Fellowship of the Ring,minilm,10,30974,High Lane,0.37258872389793396,"Action, Adventure, Fantasy","Action, Horror, Thriller",Action,1,0.2
+120,The Lord of the Rings: The Fellowship of the Ring,mpnet,1,123,The Lord of the Rings,0.835222601890564,"Action, Adventure, Fantasy","Adventure, Animation, Fantasy","Adventure, Fantasy",1,0.5
+120,The Lord of the Rings: The Fellowship of the Ring,mpnet,2,122,The Lord of the Rings: The Return of the King,0.7370566129684448,"Action, Adventure, Fantasy","Action, Adventure, Fantasy","Action, Adventure, Fantasy",1,1.0
+120,The Lord of the Rings: The Fellowship of the Ring,mpnet,3,121,The Lord of the Rings: The Two Towers,0.7229564189910889,"Action, Adventure, Fantasy","Action, Adventure, Fantasy","Action, Adventure, Fantasy",1,1.0
+120,The Lord of the Rings: The Fellowship of the Ring,mpnet,4,49051,The Hobbit: An Unexpected Journey,0.6702471971511841,"Action, Adventure, Fantasy","Action, Adventure, Fantasy","Action, Adventure, Fantasy",1,1.0
+120,The Lord of the Rings: The Fellowship of the Ring,mpnet,5,57158,The Hobbit: The Desolation of Smaug,0.6135417222976685,"Action, Adventure, Fantasy","Action, Adventure, Fantasy","Action, Adventure, Fantasy",1,1.0
+120,The Lord of the Rings: The Fellowship of the Ring,mpnet,6,122917,The Hobbit: The Battle of the Five Armies,0.5980746746063232,"Action, Adventure, Fantasy","Action, Adventure, Fantasy","Action, Adventure, Fantasy",1,1.0
+120,The Lord of the Rings: The Fellowship of the Ring,mpnet,7,1362,The Hobbit,0.5946571826934814,"Action, Adventure, Fantasy","Adventure, Animation, Family, Fantasy, TV Movie","Adventure, Fantasy",1,0.3333333333333333
+120,The Lord of the Rings: The Fellowship of the Ring,mpnet,8,839033,The Lord of the Rings: The War of the Rohirrim,0.43009117245674133,"Action, Adventure, Fantasy","Action, Adventure, Animation, Fantasy","Action, Adventure, Fantasy",1,0.75
+120,The Lord of the Rings: The Fellowship of the Ring,mpnet,9,9678,Little Nicky,0.4002649188041687,"Action, Adventure, Fantasy","Comedy, Fantasy",Fantasy,1,0.25
+120,The Lord of the Rings: The Fellowship of the Ring,mpnet,10,12444,Harry Potter and the Deathly Hallows: Part 1,0.3922916054725647,"Action, Adventure, Fantasy","Adventure, Fantasy","Adventure, Fantasy",1,0.6666666666666666
+120,The Lord of the Rings: The Fellowship of the Ring,gte_modernbert,1,123,The Lord of the Rings,0.8533245325088501,"Action, Adventure, Fantasy","Adventure, Animation, Fantasy","Adventure, Fantasy",1,0.5
+120,The Lord of the Rings: The Fellowship of the Ring,gte_modernbert,2,122,The Lord of the Rings: The Return of the King,0.806538462638855,"Action, Adventure, Fantasy","Action, Adventure, Fantasy","Action, Adventure, Fantasy",1,1.0
+120,The Lord of the Rings: The Fellowship of the Ring,gte_modernbert,3,121,The Lord of the Rings: The Two Towers,0.78134685754776,"Action, Adventure, Fantasy","Action, Adventure, Fantasy","Action, Adventure, Fantasy",1,1.0
+120,The Lord of the Rings: The Fellowship of the Ring,gte_modernbert,4,49051,The Hobbit: An Unexpected Journey,0.7553517818450928,"Action, Adventure, Fantasy","Action, Adventure, Fantasy","Action, Adventure, Fantasy",1,1.0
+120,The Lord of the Rings: The Fellowship of the Ring,gte_modernbert,5,57158,The Hobbit: The Desolation of Smaug,0.7473987936973572,"Action, Adventure, Fantasy","Action, Adventure, Fantasy","Action, Adventure, Fantasy",1,1.0
+120,The Lord of the Rings: The Fellowship of the Ring,gte_modernbert,6,1362,The Hobbit,0.7460132837295532,"Action, Adventure, Fantasy","Adventure, Animation, Family, Fantasy, TV Movie","Adventure, Fantasy",1,0.3333333333333333
+120,The Lord of the Rings: The Fellowship of the Ring,gte_modernbert,7,122917,The Hobbit: The Battle of the Five Armies,0.7426015138626099,"Action, Adventure, Fantasy","Action, Adventure, Fantasy","Action, Adventure, Fantasy",1,1.0
+120,The Lord of the Rings: The Fellowship of the Ring,gte_modernbert,8,14831,Help!,0.7101984620094299,"Action, Adventure, Fantasy","Adventure, Comedy, Music",Adventure,1,0.2
+120,The Lord of the Rings: The Fellowship of the Ring,gte_modernbert,9,573171,Little Eggs: A Frozen Rescue,0.7051933407783508,"Action, Adventure, Fantasy","Adventure, Animation, Comedy, Family",Adventure,1,0.16666666666666666
+120,The Lord of the Rings: The Fellowship of the Ring,gte_modernbert,10,87,Indiana Jones and the Temple of Doom,0.7022668719291687,"Action, Adventure, Fantasy","Action, Adventure","Action, Adventure",1,0.6666666666666666
+37165,The Truman Show,minilm,1,858017,I Saw the TV Glow,0.461098313331604,"Comedy, Drama","Drama, Horror",Drama,1,0.3333333333333333
+37165,The Truman Show,minilm,2,866463,Reptile,0.459049791097641,"Comedy, Drama","Crime, Drama, Mystery, Thriller",Drama,1,0.2
+37165,The Truman Show,minilm,3,133694,Promised Land,0.4559794068336487,"Comedy, Drama",Drama,Drama,1,0.5
+37165,The Truman Show,minilm,4,52067,Cedar Rapids,0.45361393690109253,"Comedy, Drama",Comedy,Comedy,1,0.5
+37165,The Truman Show,minilm,5,692969,Cadaver,0.443534255027771,"Comedy, Drama","Drama, Horror, Thriller",Drama,1,0.25
+37165,The Truman Show,minilm,6,25389,Matinee,0.4391777813434601,"Comedy, Drama","Comedy, Drama","Comedy, Drama",1,1.0
+37165,The Truman Show,minilm,7,14337,Primer,0.42687729001045227,"Comedy, Drama","Drama, Science Fiction, Thriller",Drama,1,0.25
+37165,The Truman Show,minilm,8,1208348,Rental Family,0.41170114278793335,"Comedy, Drama","Comedy, Drama","Comedy, Drama",1,1.0
+37165,The Truman Show,minilm,9,4193,Evil Under the Sun,0.4082040786743164,"Comedy, Drama","Crime, Drama, Mystery, Thriller",Drama,1,0.2
+37165,The Truman Show,minilm,10,5236,Kiss Kiss Bang Bang,0.39552605152130127,"Comedy, Drama","Comedy, Crime, Mystery",Comedy,1,0.25
+37165,The Truman Show,mpnet,1,155084,13 Sins,0.6452003717422485,"Comedy, Drama","Horror, Thriller",,0,0.0
+37165,The Truman Show,mpnet,2,52067,Cedar Rapids,0.6023977994918823,"Comedy, Drama",Comedy,Comedy,1,0.5
+37165,The Truman Show,mpnet,3,996,Double Indemnity,0.5933510661125183,"Comedy, Drama","Crime, Thriller",,0,0.0
+37165,The Truman Show,mpnet,4,11374,EDtv,0.5652840733528137,"Comedy, Drama",Comedy,Comedy,1,0.5
+37165,The Truman Show,mpnet,5,133694,Promised Land,0.5599516034126282,"Comedy, Drama",Drama,Drama,1,0.5
+37165,The Truman Show,mpnet,6,9414,The Man Who Knew Too Little,0.5566854476928711,"Comedy, Drama","Action, Comedy, Crime",Comedy,1,0.25
+37165,The Truman Show,mpnet,7,1359,American Psycho,0.5527139902114868,"Comedy, Drama","Crime, Drama, Thriller",Drama,1,0.25
+37165,The Truman Show,mpnet,8,389053,The Do-Over,0.5525835752487183,"Comedy, Drama","Action, Adventure, Comedy",Comedy,1,0.25
+37165,The Truman Show,mpnet,9,10141,Dirty Rotten Scoundrels,0.5487418174743652,"Comedy, Drama","Comedy, Crime",Comedy,1,0.3333333333333333
+37165,The Truman Show,mpnet,10,866463,Reptile,0.5403447151184082,"Comedy, Drama","Crime, Drama, Mystery, Thriller",Drama,1,0.2
+37165,The Truman Show,gte_modernbert,1,155084,13 Sins,0.7499194145202637,"Comedy, Drama","Horror, Thriller",,0,0.0
+37165,The Truman Show,gte_modernbert,2,133694,Promised Land,0.7395875453948975,"Comedy, Drama",Drama,Drama,1,0.5
+37165,The Truman Show,gte_modernbert,3,52067,Cedar Rapids,0.7388929724693298,"Comedy, Drama",Comedy,Comedy,1,0.5
+37165,The Truman Show,gte_modernbert,4,996,Double Indemnity,0.7254927158355713,"Comedy, Drama","Crime, Thriller",,0,0.0
+37165,The Truman Show,gte_modernbert,5,1402,The Pursuit of Happyness,0.7136108875274658,"Comedy, Drama",Drama,Drama,1,0.5
+37165,The Truman Show,gte_modernbert,6,8051,Punch-Drunk Love,0.7135600447654724,"Comedy, Drama","Comedy, Drama, Romance","Comedy, Drama",1,0.6666666666666666
+37165,The Truman Show,gte_modernbert,7,38366,The Cyclone,0.7068452835083008,"Comedy, Drama","Comedy, Romance",Comedy,1,0.3333333333333333
+37165,The Truman Show,gte_modernbert,8,463257,The Peanut Butter Falcon,0.7043957710266113,"Comedy, Drama","Adventure, Comedy, Drama","Comedy, Drama",1,0.6666666666666666
+37165,The Truman Show,gte_modernbert,9,23160,Werckmeister Harmonies,0.7036133408546448,"Comedy, Drama",Drama,Drama,1,0.5
+37165,The Truman Show,gte_modernbert,10,11374,EDtv,0.7023854851722717,"Comedy, Drama",Comedy,Comedy,1,0.5
+44214,Black Swan,minilm,1,12761,Autumn Sonata,0.5199375152587891,"Drama, Horror, Thriller","Drama, Music",Drama,1,0.25
+44214,Black Swan,minilm,2,19542,The Red Shoes,0.5071286559104919,"Drama, Horror, Thriller","Drama, Romance",Drama,1,0.25
+44214,Black Swan,minilm,3,771077,Rise,0.500538170337677,"Drama, Horror, Thriller","Comedy, Drama, Family",Drama,1,0.2
+44214,Black Swan,minilm,4,1111873,Abigail,0.49766668677330017,"Drama, Horror, Thriller","Horror, Thriller","Horror, Thriller",1,0.6666666666666666
+44214,Black Swan,minilm,5,532620,Let's Dance,0.4874098598957062,"Drama, Horror, Thriller","Comedy, Drama, Music",Drama,1,0.2
+44214,Black Swan,minilm,6,8966,Twilight,0.4817543029785156,"Drama, Horror, Thriller","Drama, Fantasy, Romance",Drama,1,0.2
+44214,Black Swan,minilm,7,988402,Humanist Vampire Seeking Consenting Suicidal Person,0.47610217332839966,"Drama, Horror, Thriller","Comedy, Fantasy, Horror",Horror,1,0.2
+44214,Black Swan,minilm,8,535,Flashdance,0.4715948700904846,"Drama, Horror, Thriller","Drama, Romance",Drama,1,0.25
+44214,Black Swan,minilm,9,342473,Ballerina,0.4715334177017212,"Drama, Horror, Thriller","Adventure, Animation, Family",,0,0.0
+44214,Black Swan,minilm,10,515916,Girl,0.4703112840652466,"Drama, Horror, Thriller",Drama,Drama,1,0.3333333333333333
+44214,Black Swan,mpnet,1,10560,Center Stage,0.6054534912109375,"Drama, Horror, Thriller","Drama, Music",Drama,1,0.25
+44214,Black Swan,mpnet,2,14871,Make It Happen,0.6046698689460754,"Drama, Horror, Thriller","Comedy, Drama, Music, Romance",Drama,1,0.16666666666666666
+44214,Black Swan,mpnet,3,535,Flashdance,0.6001228094100952,"Drama, Horror, Thriller","Drama, Romance",Drama,1,0.25
+44214,Black Swan,mpnet,4,342473,Ballerina,0.5900828838348389,"Drama, Horror, Thriller","Adventure, Animation, Family",,0,0.0
+44214,Black Swan,mpnet,5,298582,Full Out,0.5796882510185242,"Drama, Horror, Thriller","Drama, Family, History",Drama,1,0.2
+44214,Black Swan,mpnet,6,19542,The Red Shoes,0.5675437450408936,"Drama, Horror, Thriller","Drama, Romance",Drama,1,0.25
+44214,Black Swan,mpnet,7,14024,Raise Your Voice,0.5619599223136902,"Drama, Horror, Thriller","Drama, Family, Music, Romance",Drama,1,0.16666666666666666
+44214,Black Swan,mpnet,8,121986,Frances Ha,0.5578476190567017,"Drama, Horror, Thriller","Comedy, Drama",Drama,1,0.25
+44214,Black Swan,mpnet,9,315664,Florence Foster Jenkins,0.5495086908340454,"Drama, Horror, Thriller","Comedy, Drama",Drama,1,0.25
+44214,Black Swan,mpnet,10,515916,Girl,0.5453301072120667,"Drama, Horror, Thriller",Drama,Drama,1,0.3333333333333333
+44214,Black Swan,gte_modernbert,1,121986,Frances Ha,0.7264161705970764,"Drama, Horror, Thriller","Comedy, Drama",Drama,1,0.25
+44214,Black Swan,gte_modernbert,2,19542,The Red Shoes,0.7226730585098267,"Drama, Horror, Thriller","Drama, Romance",Drama,1,0.25
+44214,Black Swan,gte_modernbert,3,515916,Girl,0.7139618396759033,"Drama, Horror, Thriller",Drama,Drama,1,0.3333333333333333
+44214,Black Swan,gte_modernbert,4,12763,Take the Lead,0.7006781697273254,"Drama, Horror, Thriller","Drama, Music",Drama,1,0.25
+44214,Black Swan,gte_modernbert,5,342473,Ballerina,0.6997989416122437,"Drama, Horror, Thriller","Adventure, Animation, Family",,0,0.0
+44214,Black Swan,gte_modernbert,6,535,Flashdance,0.6982071399688721,"Drama, Horror, Thriller","Drama, Romance",Drama,1,0.25
+44214,Black Swan,gte_modernbert,7,807339,Apartment 7A,0.6968228816986084,"Drama, Horror, Thriller","Horror, Thriller","Horror, Thriller",1,0.6666666666666666
+44214,Black Swan,gte_modernbert,8,168903,Barbie in the Pink Shoes,0.6935352087020874,"Drama, Horror, Thriller","Animation, Family",,0,0.0
+44214,Black Swan,gte_modernbert,9,532620,Let's Dance,0.6928063035011292,"Drama, Horror, Thriller","Comedy, Drama, Music",Drama,1,0.2
+44214,Black Swan,gte_modernbert,10,14871,Make It Happen,0.6914061307907104,"Drama, Horror, Thriller","Comedy, Drama, Music, Romance",Drama,1,0.16666666666666666
+76341,Mad Max: Fury Road,minilm,1,20504,The Book of Eli,0.6257125735282898,"Action, Adventure, Science Fiction","Action, Science Fiction, Thriller","Action, Science Fiction",1,0.5
+76341,Mad Max: Fury Road,minilm,2,1042834,Eden,0.5648308992385864,"Action, Adventure, Science Fiction","Drama, Thriller",,0,0.0
+76341,Mad Max: Fury Road,minilm,3,461955,Rakka,0.5625811815261841,"Action, Adventure, Science Fiction","Action, Horror, Science Fiction, War","Action, Science Fiction",1,0.4
+76341,Mad Max: Fury Road,minilm,4,313943,Revolt,0.5371231436729431,"Action, Adventure, Science Fiction","Action, Science Fiction","Action, Science Fiction",1,0.6666666666666666
+76341,Mad Max: Fury Road,minilm,5,1151244,Vermiglio,0.5295021533966064,"Action, Adventure, Science Fiction",Drama,,0,0.0
+76341,Mad Max: Fury Road,minilm,6,68735,Warcraft,0.5217083692550659,"Action, Adventure, Science Fiction","Action, Adventure, Fantasy","Action, Adventure",1,0.5
+76341,Mad Max: Fury Road,minilm,7,577922,Tenet,0.520200788974762,"Action, Adventure, Science Fiction","Action, Science Fiction, Thriller","Action, Science Fiction",1,0.5
+76341,Mad Max: Fury Road,minilm,8,338676,Extinction,0.5191683173179626,"Action, Adventure, Science Fiction","Action, Adventure, Horror, Science Fiction, Thriller","Action, Adventure, Science Fiction",1,0.6
+76341,Mad Max: Fury Road,minilm,9,11864,Enemy Mine,0.5123059153556824,"Action, Adventure, Science Fiction","Drama, Science Fiction",Science Fiction,1,0.25
+76341,Mad Max: Fury Road,minilm,10,49849,Cowboys & Aliens,0.5112040638923645,"Action, Adventure, Science Fiction","Action, Science Fiction, Thriller, Western","Action, Science Fiction",1,0.4
+76341,Mad Max: Fury Road,mpnet,1,345009,Mine,0.5919473171234131,"Action, Adventure, Science Fiction","Thriller, War",,0,0.0
+76341,Mad Max: Fury Road,mpnet,2,426814,The Domestics,0.5786807537078857,"Action, Adventure, Science Fiction","Horror, Thriller",,0,0.0
+76341,Mad Max: Fury Road,mpnet,3,1129598,Prey,0.5661731362342834,"Action, Adventure, Science Fiction","Action, Horror, Thriller",Action,1,0.2
+76341,Mad Max: Fury Road,mpnet,4,310135,Turbo Kid,0.5583714842796326,"Action, Adventure, Science Fiction","Action, Comedy, Science Fiction","Action, Science Fiction",1,0.5
+76341,Mad Max: Fury Road,mpnet,5,20504,The Book of Eli,0.5504158139228821,"Action, Adventure, Science Fiction","Action, Science Fiction, Thriller","Action, Science Fiction",1,0.5
+76341,Mad Max: Fury Road,mpnet,6,10155,U Turn,0.5492579340934753,"Action, Adventure, Science Fiction","Crime, Drama, Romance, Thriller",,0,0.0
+76341,Mad Max: Fury Road,mpnet,7,414425,Mudbound,0.5464305877685547,"Action, Adventure, Science Fiction",Drama,,0,0.0
+76341,Mad Max: Fury Road,mpnet,8,313943,Revolt,0.5376349091529846,"Action, Adventure, Science Fiction","Action, Science Fiction","Action, Science Fiction",1,0.6666666666666666
+76341,Mad Max: Fury Road,mpnet,9,49849,Cowboys & Aliens,0.5375755429267883,"Action, Adventure, Science Fiction","Action, Science Fiction, Thriller, Western","Action, Science Fiction",1,0.4
+76341,Mad Max: Fury Road,mpnet,10,718444,Rogue,0.5322525501251221,"Action, Adventure, Science Fiction","Action, Adventure","Action, Adventure",1,0.6666666666666666
+76341,Mad Max: Fury Road,gte_modernbert,1,49849,Cowboys & Aliens,0.7952755689620972,"Action, Adventure, Science Fiction","Action, Science Fiction, Thriller, Western","Action, Science Fiction",1,0.4
+76341,Mad Max: Fury Road,gte_modernbert,2,354282,Science Fiction Volume One: The Osiris Child,0.7716162800788879,"Action, Adventure, Science Fiction",Science Fiction,Science Fiction,1,0.3333333333333333
+76341,Mad Max: Fury Road,gte_modernbert,3,313943,Revolt,0.7604942321777344,"Action, Adventure, Science Fiction","Action, Science Fiction","Action, Science Fiction",1,0.6666666666666666
+76341,Mad Max: Fury Road,gte_modernbert,4,1042834,Eden,0.7583591938018799,"Action, Adventure, Science Fiction","Drama, Thriller",,0,0.0
+76341,Mad Max: Fury Road,gte_modernbert,5,575322,Project Gemini,0.7482177019119263,"Action, Adventure, Science Fiction","Science Fiction, Thriller",Science Fiction,1,0.25
+76341,Mad Max: Fury Road,gte_modernbert,6,334538,Into the Forest,0.7474462985992432,"Action, Adventure, Science Fiction","Drama, Science Fiction",Science Fiction,1,0.25
+76341,Mad Max: Fury Road,gte_modernbert,7,2789,The Chronicles of Riddick,0.7463346719741821,"Action, Adventure, Science Fiction","Action, Science Fiction","Action, Science Fiction",1,0.6666666666666666
+76341,Mad Max: Fury Road,gte_modernbert,8,438631,Dune,0.743562638759613,"Action, Adventure, Science Fiction","Adventure, Science Fiction, War","Adventure, Science Fiction",1,0.5
+76341,Mad Max: Fury Road,gte_modernbert,9,274855,Geostorm,0.7394320964813232,"Action, Adventure, Science Fiction","Action, Science Fiction, Thriller","Action, Science Fiction",1,0.5
+76341,Mad Max: Fury Road,gte_modernbert,10,501929,The Mitchells vs. the Machines,0.7386106848716736,"Action, Adventure, Science Fiction","Adventure, Animation, Comedy",Adventure,1,0.2
+37799,The Social Network,minilm,1,482321,Ron's Gone Wrong,0.45393645763397217,Drama,"Animation, Comedy, Family, Science Fiction",,0,0.0
+37799,The Social Network,minilm,2,671043,Spoiled Brats,0.45378702878952026,Drama,Comedy,,0,0.0
+37799,The Social Network,minilm,3,257211,The Intern,0.45101669430732727,Drama,Comedy,,0,0.0
+37799,The Social Network,minilm,4,606625,Follow Me,0.4364553391933441,Drama,"Horror, Thriller",,0,0.0
+37799,The Social Network,minilm,5,284427,Who Am I,0.4255475699901581,Drama,Thriller,,0,0.0
+37799,The Social Network,minilm,6,33909,Wall Street: Money Never Sleeps,0.41160768270492554,Drama,"Crime, Drama",Drama,1,0.5
+37799,The Social Network,minilm,7,453,A Beautiful Mind,0.40171122550964355,Drama,"Drama, Romance",Drama,1,0.5
+37799,The Social Network,minilm,8,10428,Hackers,0.3920135498046875,Drama,"Action, Crime, Drama, Thriller",Drama,1,0.25
+37799,The Social Network,minilm,9,10673,Wall Street,0.39005547761917114,Drama,"Crime, Drama",Drama,1,0.5
+37799,The Social Network,minilm,10,987917,Old Dads,0.389506995677948,Drama,Comedy,,0,0.0
+37799,The Social Network,mpnet,1,590854,The Hater,0.41467902064323425,Drama,"Drama, Thriller",Drama,1,0.5
+37799,The Social Network,mpnet,2,368031,Friend Request,0.4108586609363556,Drama,"Horror, Thriller",,0,0.0
+37799,The Social Network,mpnet,3,1016084,BlackBerry,0.40869611501693726,Drama,"Comedy, Drama, History",Drama,1,0.3333333333333333
+37799,The Social Network,mpnet,4,544404,Who You Think I Am,0.40713801980018616,Drama,"Drama, Romance",Drama,1,0.5
+37799,The Social Network,mpnet,5,162903,The Fifth Estate,0.38861608505249023,Drama,"Drama, Thriller",Drama,1,0.5
+37799,The Social Network,mpnet,6,115782,Jobs,0.3872409462928772,Drama,"Drama, History",Drama,1,0.5
+37799,The Social Network,mpnet,7,284427,Who Am I,0.37486422061920166,Drama,Thriller,,0,0.0
+37799,The Social Network,mpnet,8,814340,Cha Cha Real Smooth,0.3713928759098053,Drama,"Comedy, Drama, Romance",Drama,1,0.3333333333333333
+37799,The Social Network,mpnet,9,1182047,The Apprentice,0.36542850732803345,Drama,"Comedy, Drama, History",Drama,1,0.3333333333333333
+37799,The Social Network,mpnet,10,363992,The Wizard of Lies,0.3582550287246704,Drama,"Crime, Drama, TV Movie",Drama,1,0.3333333333333333
+37799,The Social Network,gte_modernbert,1,79108,Starbuck,0.6987672448158264,Drama,Comedy,,0,0.0
+37799,The Social Network,gte_modernbert,2,416494,Status Update,0.6974425315856934,Drama,"Comedy, Fantasy, Science Fiction",,0,0.0
+37799,The Social Network,gte_modernbert,3,146239,Delivery Man,0.696001410484314,Drama,Comedy,,0,0.0
+37799,The Social Network,gte_modernbert,4,115782,Jobs,0.6959858536720276,Drama,"Drama, History",Drama,1,0.5
+37799,The Social Network,gte_modernbert,5,368031,Friend Request,0.6947920322418213,Drama,"Horror, Thriller",,0,0.0
+37799,The Social Network,gte_modernbert,6,590854,The Hater,0.6931086778640747,Drama,"Drama, Thriller",Drama,1,0.5
+37799,The Social Network,gte_modernbert,7,284427,Who Am I,0.6914931535720825,Drama,Thriller,,0,0.0
+37799,The Social Network,gte_modernbert,8,544404,Who You Think I Am,0.6852777600288391,Drama,"Drama, Romance",Drama,1,0.5
+37799,The Social Network,gte_modernbert,9,14337,Primer,0.6830519437789917,Drama,"Drama, Science Fiction, Thriller",Drama,1,0.3333333333333333
+37799,The Social Network,gte_modernbert,10,5559,Bee Movie,0.6815588474273682,Drama,"Adventure, Animation, Comedy, Family",,0,0.0
+120467,The Grand Budapest Hotel,minilm,1,824,Moulin Rouge!,0.5400105714797974,"Comedy, Drama","Drama, Music, Romance",Drama,1,0.25
+120467,The Grand Budapest Hotel,minilm,2,37767,Fun Is Beautiful,0.47274094820022583,"Comedy, Drama",Comedy,Comedy,1,0.5
+120467,The Grand Budapest Hotel,minilm,3,423,The Pianist,0.47162193059921265,"Comedy, Drama","Drama, War",Drama,1,0.3333333333333333
+120467,The Grand Budapest Hotel,minilm,4,472674,The Goldfinch,0.46332693099975586,"Comedy, Drama",Drama,Drama,1,0.5
+120467,The Grand Budapest Hotel,minilm,5,505026,Death on the Nile,0.46221673488616943,"Comedy, Drama","Crime, Mystery, Thriller",,0,0.0
+120467,The Grand Budapest Hotel,minilm,6,25866,The Sucker,0.4606693387031555,"Comedy, Drama","Comedy, Crime",Comedy,1,0.3333333333333333
+120467,The Grand Budapest Hotel,minilm,7,245700,Mr. Turner,0.4441741406917572,"Comedy, Drama","Drama, History",Drama,1,0.3333333333333333
+120467,The Grand Budapest Hotel,minilm,8,432616,Promise at Dawn,0.44413334131240845,"Comedy, Drama","Drama, History, Romance, War",Drama,1,0.2
+120467,The Grand Budapest Hotel,minilm,9,11035,Roma,0.44202280044555664,"Comedy, Drama","Comedy, Drama","Comedy, Drama",1,1.0
+120467,The Grand Budapest Hotel,minilm,10,549509,The Brutalist,0.4371564984321594,"Comedy, Drama",Drama,Drama,1,0.5
+120467,The Grand Budapest Hotel,mpnet,1,339397,Café Society,0.6220852136611938,"Comedy, Drama","Comedy, Drama, Romance","Comedy, Drama",1,0.6666666666666666
+120467,The Grand Budapest Hotel,mpnet,2,606876,Rifkin’s Festival,0.5884783267974854,"Comedy, Drama","Comedy, Romance",Comedy,1,0.3333333333333333
+120467,The Grand Budapest Hotel,mpnet,3,33680,Grand Hotel,0.5740640163421631,"Comedy, Drama","Drama, Romance",Drama,1,0.3333333333333333
+120467,The Grand Budapest Hotel,mpnet,4,64682,The Great Gatsby,0.5691136121749878,"Comedy, Drama","Drama, Romance",Drama,1,0.3333333333333333
+120467,The Grand Budapest Hotel,mpnet,5,1887,Marie Antoinette,0.5557801723480225,"Comedy, Drama","Drama, History",Drama,1,0.3333333333333333
+120467,The Grand Budapest Hotel,mpnet,6,26900,The Bandit,0.5542919635772705,"Comedy, Drama","Crime, Drama, Thriller",Drama,1,0.25
+120467,The Grand Budapest Hotel,mpnet,7,30588,Monsieur Verdoux,0.5503512620925903,"Comedy, Drama","Comedy, Crime, Drama","Comedy, Drama",1,0.6666666666666666
+120467,The Grand Budapest Hotel,mpnet,8,23210,Six Degrees of Separation,0.549988865852356,"Comedy, Drama","Comedy, Drama, Mystery","Comedy, Drama",1,0.6666666666666666
+120467,The Grand Budapest Hotel,mpnet,9,615777,Babylon,0.5494495630264282,"Comedy, Drama","Comedy, Drama","Comedy, Drama",1,1.0
+120467,The Grand Budapest Hotel,mpnet,10,38939,Tales from the Crypt,0.5437822341918945,"Comedy, Drama",Horror,,0,0.0
+120467,The Grand Budapest Hotel,gte_modernbert,1,19548,The Restaurant,0.6973680853843689,"Comedy, Drama",Comedy,Comedy,1,0.5
+120467,The Grand Budapest Hotel,gte_modernbert,2,210860,Mortdecai,0.6968512535095215,"Comedy, Drama","Adventure, Comedy",Comedy,1,0.3333333333333333
+120467,The Grand Budapest Hotel,gte_modernbert,3,10168,The Freshman,0.6957312822341919,"Comedy, Drama","Comedy, Crime",Comedy,1,0.3333333333333333
+120467,The Grand Budapest Hotel,gte_modernbert,4,940,The Lady Vanishes,0.6824462413787842,"Comedy, Drama","Mystery, Thriller",,0,0.0
+120467,The Grand Budapest Hotel,gte_modernbert,5,10699,Hero,0.6818089485168457,"Comedy, Drama","Comedy, Drama","Comedy, Drama",1,1.0
+120467,The Grand Budapest Hotel,gte_modernbert,6,152760,The Monuments Men,0.6785013675689697,"Comedy, Drama","Drama, History, War",Drama,1,0.25
+120467,The Grand Budapest Hotel,gte_modernbert,7,553608,DJ Cinderella,0.6741184592247009,"Comedy, Drama","Comedy, Romance",Comedy,1,0.3333333333333333
+120467,The Grand Budapest Hotel,gte_modernbert,8,493529,Dungeons & Dragons: Honor Among Thieves,0.6705434918403625,"Comedy, Drama","Adventure, Comedy, Fantasy",Comedy,1,0.25
+120467,The Grand Budapest Hotel,gte_modernbert,9,38327,My Best Enemy,0.6683627963066101,"Comedy, Drama",Comedy,Comedy,1,0.5
+120467,The Grand Budapest Hotel,gte_modernbert,10,180147,We Are the Nobles,0.6683314442634583,"Comedy, Drama",Comedy,Comedy,1,0.5
